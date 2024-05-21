@@ -10,170 +10,25 @@
 
 
             <section class="flex flex-col justify-center px-7 py-5 mt-4 w-full rounded-xl bg-white border border-gray-200 rounded-xl dark:bg-neutral-800 dark:border-neutral-700 max-md:px-5">
-              <a class="flex items-center gap-x-2 py-2 px-3 text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-300 dark:focus:bg-neutral-700" href="../../pro/index.html">
+              <a class="flex items-center gap-x-4 py-2 px-0.5 text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-300 dark:focus:bg-neutral-700" href="../../pro/index.html">
               <span class="flex justify-center items-center size-6 bg-blue-600 text-white rounded-md dark:bg-blue-500">
                 <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
               </span>
-                PRO
+                Мои лицензии
               </a>
-              <div class="flex gap-4 pr-2 text-sm leading-6 text-slate-400">
-                <img loading="lazy" src="http://b.io/ext6-" alt="Cloud Servers" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Облачные серверы</div>
-              </div>
-              <div class="flex gap-4 pr-2.5 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/4862d9770d1dd935b5743f764509bcd8a7e46e7a642e788558e7d6e40b307267?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Dedicated Servers" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Выделенные серверы</div>
-              </div>
-              <div class="flex gap-4 pr-2 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/752ae4d79e97f5b14c12b709c0059f2532c266a5d39b383ae9c1712679ce40bb?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Databases" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Базы данных</div>
-              </div>
-              <div class="flex gap-5 justify-between mt-3 w-full whitespace-nowrap">
-                <div class="flex gap-4 text-sm leading-6 text-slate-400">
-                  <img loading="lazy"
-                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/bc18d710b2821abc5b12f0f437502bb123085a3de89fd8bae15237b4dd071ba6?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                       alt="Apps" class="shrink-0 w-6 aspect-square"/>
-                  <div class="justify-center my-auto">Apps</div>
-                </div>
-                <div
-                    class="justify-center p-1.5 my-auto text-xs leading-4 text-center text-white bg-indigo-500 rounded">
-                  NEW
-                </div>
-              </div>
-              <div class="flex gap-4 pr-2.5 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/d00ee9d2b801e4a7f7e6433011023fdce5b46cb5fc27dc2caf2088d61baec275?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="S3 Storage" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Хранилище S3</div>
-              </div>
-              <div class="flex gap-4 pr-3.5 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/a6dabf0f0a425564809102f42b2529733049d1db014d6d98357459f34e6f6c99?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Kubernetes" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Kubernetes</div>
-              </div>
-              <div class="flex gap-4 pr-20 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400 max-md:pr-5">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b2a830ba13bb6577e00f242ee3614e378b971a8b2d55113ebd623b2c2b059b4?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Networks" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Сети</div>
-              </div>
-              <div class="flex gap-4 pr-3.5 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3ce4be3032340da6b11d7c1cd8bf695b34e06c8de9526d3537ac5f5320871b6b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="SSH Keys" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">SSH-ключи</div>
-              </div>
-              <div class="flex gap-4 pr-3 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/79bfe5f7611fc9004c737be01b0dde2afdc67ad0c6a9e09b0d185c829a85fefe?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Images" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Образы</div>
-              </div>
-              <div class="shrink-0 mt-3 bg-gray-700 h-[5px]"></div>
-              <div class="flex gap-4 pr-2.5 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/fee6977d05ab4d5054f32e55ce17c466fc47df2108f62a29c52c48c7d8c6c333?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Domains" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Домены</div>
-              </div>
-              <div class="flex gap-4 pr-20 mt-4 text-sm leading-6 whitespace-nowrap text-slate-400 max-md:pr-5">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/b91d5f107d4c5317807f85721110bb3ad8c5724ceabc229ca161e442e7c6ab2b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Mail" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Почта</div>
-              </div>
-              <div class="flex gap-4 pr-2.5 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/d98a697e08c37dfae903f49dac68bcbdabd723dfec7ce3d672699f5834a2c03b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Licenses" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Лицензии</div>
-              </div>
-              <div class="flex gap-4 pr-3.5 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/d5c4ec403ba93aa5c9d335337a8afad4c3c9729643dfa60c7e39b4b502638320?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="SSL Certificates" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">SSL-сертификаты</div>
-              </div>
-              <div class="flex gap-4 pr-1.5 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/80980643bf2d49f623a256aff703725bc41557ef988c63d4b54ba604138fcbb2?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Personal Network" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Личная сеть</div>
-              </div>
-              <div class="shrink-0 mt-3 bg-gray-700 h-[5px]"></div>
-              <div class="flex gap-4 pr-2 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/0fc112eb3e27b6e0c4a19d8fbfa5fb069343f7dd8c9c731daf611ab1809263ce?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Balance and Payments" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Баланс и платежи</div>
-              </div>
-              <div class="flex gap-4 pr-3 mt-4 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/a74a88802b8cc5f18b892af52d997730905887b265bbd328bc5f56f847798db4?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Documents" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Документы</div>
-              </div>
-              <div class="flex gap-4 pr-1.5 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/37a41cd1771b6a1059ea05b9d8dac1166463fe8a5274662bfc4bdbcc46be5451?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="API and Terraform" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">API и Terraform</div>
-              </div>
-              <div class="flex gap-4 pr-2.5 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/443b11d85c12c44e491b2cb3d710544d8f97c2abf84aaa075ac2f9ddd4d0db1d?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Notifications" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Уведомления</div>
-              </div>
-              <div class="flex gap-4 pr-3 mt-3 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/75e8eff74ff708c181cada2492f2f9a489671c7d244388a200c09ed39d95c801?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Users" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Пользователи</div>
-              </div>
-              <div class="flex gap-5 justify-between mt-3 w-full whitespace-nowrap">
-                <div class="flex gap-4 text-sm leading-6 text-slate-400">
-                  <img loading="lazy"
-                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/1320a30baf7442a9c6017e7f926e0be4c134d3796f7e5150180c94351a5336a5?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                       alt="History" class="shrink-0 w-6 aspect-square"/>
-                  <div class="justify-center my-auto">История</div>
-                </div>
-                <div
-                    class="justify-center p-1.5 my-auto text-xs leading-4 text-center text-white bg-indigo-500 rounded">
-                  NEW
-                </div>
-              </div>
-              <div class="shrink-0 mt-3 bg-gray-700 h-[5px]"></div>
-              <div class="flex gap-4 pr-2 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/5eda11ddfb0cfa43bd7783ec056297ce9ad5d25b476d10b65d9194476adca057?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Bug Bounty" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Заработать на баге</div>
-              </div>
-              <div class="flex gap-4 pr-3 mt-4 text-sm leading-6 whitespace-nowrap text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/dff2f60dcdad22681a64e6492ded3c2d59ca0565569fb9973f947cb009712661?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Documentation" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Документация</div>
-              </div>
-              <div class="shrink-0 mt-3 bg-gray-700 h-[5px]"></div>
-              <div class="flex gap-4 pr-2 mt-3 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/5899694768717b0640524502436a441168a8465484e57921fd6d65a43b64281b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="iOS App" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">iOS приложение</div>
-              </div>
-              <div class="flex gap-4 pr-2 mt-4 text-sm leading-6 text-slate-400">
-                <img loading="lazy"
-                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2e27c04e34def51342b909e659a91f1a8b66cdd0b52356e2093c3de210bf65d?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                     alt="Android App" class="shrink-0 w-6 aspect-square"/>
-                <div class="justify-center my-auto">Android приложение</div>
-              </div>
+              <a class="flex items-center gap-x-4 py-2 px-0.5 text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-300 dark:focus:bg-neutral-700" href="../../pro/index.html">
+              <span class="flex justify-center items-center size-6 bg-blue-600 text-white rounded-md dark:bg-blue-500">
+                <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
+              </span>
+                Мои лицензии
+              </a>
+              <a class="flex items-center gap-x-4 py-2 px-0.5 text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-300 dark:focus:bg-neutral-700" href="../../pro/index.html">
+              <span class="flex justify-center items-center size-6 bg-blue-600 text-white rounded-md dark:bg-blue-500">
+                <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
+              </span>
+                Написать в поддержку
+              </a>
+
             </section>
           </aside>
         </nav>
@@ -183,10 +38,10 @@
               <div class="flex gap-3 items-start max-md:flex-wrap">
                 <img loading="lazy"
                      src="/public/images/logotype.png"
-                     alt="Idea" class="shrink-0 w-14 aspect-square"/>
+                     alt="Idea" class="shrink-0 w-14 aspect-square rounded-full"/>
                 <section class="flex flex-col grow shrink-0 justify-center py-0.5 mt-1.5 w-fit">
                   <h2 class="text-2xl font-bold text-gray-800 dark:text-neutral-200">У вас есть идея?</h2>
-                  <p class="justify-center mt-4 text-sm leading-6 text-slate-400">Предлагайте свои идеи по улучшению Adwos CMS</p>
+                  <p class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">Предлагайте свои идеи по улучшению Adwos CMS</p>
                 </section>
               </div>
               <button
@@ -197,12 +52,12 @@
             <section class="mt-6 max-md:max-w-full">
               <div class="flex gap-5 max-md:flex-col max-md:gap-0">
                 <section class="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
-                  <div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+                  <div class="flex flex-col grow max-md:mt-10 space-y-3 max-md:max-w-full">
                     <div class="relative">
                       <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3.5">
                         <svg class="flex-shrink-0 size-4 text-gray-400 dark:text-white/60" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
                       </div>
-                      <input type="text" class="py-2 ps-10 pe-16 block w-full bg-white border-gray-200 rounded-lg text-sm focus:outline-none focus:border-gray-200 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder:text-neutral-400 dark:focus:ring-neutral-600" placeholder="Search Preline" data-hs-overlay="#hs-pro-dnsm">
+                      <input type="text" class="py-2 ps-10 pe-16 block w-full bg-white border-gray-200 rounded-lg text-sm focus:outline-none focus:border-gray-200 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder:text-neutral-400 dark:focus:ring-neutral-600" placeholder="Поиск по идеям" data-hs-overlay="#hs-pro-dnsm">
                       <div class="absolute inset-y-0 end-0 flex items-center pointer-events-none z-20 pe-3 text-gray-400">
                         <svg class="flex-shrink-0 size-3 text-gray-400 dark:text-white/60" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"></path></svg>
                         <span class="mx-1">
@@ -211,325 +66,498 @@
                         <span class="text-xs">/</span>
                       </div>
                     </div>
-                    <article class="flex gap-5 mt-6 text-sm text-slate-400 max-md:flex-wrap">
-                      <img loading="lazy"
-                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/c7b64c21901f071a536c8f0ad25d4e20a78524d105d970bbd37ff2f1b283db3f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                           alt="Idea Image 1" class="shrink-0 self-start w-12 rounded-xl aspect-[0.6]"/>
-                      <section class="flex flex-col grow shrink-0 basis-0 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Поддержка кастомных тарифов и
-                          конфигураций в биллинге и Terraform через механизм тегов</h3>
-                        <p class="mt-5 leading-6 max-md:max-w-full">Для управления инфраструктурой в TimeWeb Cloud очень
-                          круто и легко использовать Terraform - прям песня пушка огонь.</p>
-                        <div class="mt-8 leading-[157%] max-md:max-w-full">Однако использование Terraform не...</div>
-                        <div class="flex gap-2.5 items-center mt-4 leading-[171%] max-md:flex-wrap max-md:pr-5">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                          <div class="self-stretch my-auto">0</div>
-                          <div class="flex gap-1 self-stretch text-center">
-                            <span class="justify-center px-2 py-2 whitespace-nowrap rounded bg-slate-800">API</span>
-                            <span class="justify-center px-3 py-1.5 rounded bg-slate-800">Новые сервисы</span>
-                            <span class="justify-center px-2.5 py-1.5 rounded bg-slate-800">Оплата услуг</span>
+
+
+
+
+                    <!-- Card List Group -->
+                    <div class="space-y-3">
+                      <!-- Team List Card -->
+                      <div class="p-4 relative flex flex-col bg-white border border-gray-200 rounded-xl dark:bg-neutral-800 dark:border-neutral-700">
+                        <article
+                            class="flex gap-5 bg-white border-gray-200 dark:bg-neutral-800 dark:border-neutral-700 justify-center items-start pr-12 text-sm text-slate-400 max-md:flex-wrap max-md:pr-5">
+                          <div class="shrink-0 w-12 rounded-xl aspect-[0.6]">
+                            <!-- Input Number -->
+                            <div class="py-2 px-3 flex flex-col border border-gray-200 rounded-lg dark:border-neutral-700" data-hs-input-number="">
+                              <div class="flex flex-col items-center gap-x-1.5">
+                                <button type="button" class="size-6 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-md border border-gray-200  text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none  dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" data-hs-input-number-decrement="">
+                                  <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                  </svg>
+                                </button>
+                                <input class="p-0 w-6 bg-transparent border-0 text-gray-800 text-center focus:ring-0 dark:text-white" type="text" value="0" data-hs-input-number-input="">
+                                <button type="button" class="size-6 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-md border border-gray-200  text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none  dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" data-hs-input-number-increment="">
+                                  <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5v14"></path>
+                                  </svg>
+                                </button>
+                              </div>
+                            </div>
+                            <!-- End Input Number -->
                           </div>
-                          <div class="flex gap-1.5 self-stretch my-auto whitespace-nowrap">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f82ac1f95e08ad6d8fadea31399936fa81ab1cc84ce6bd0eb83b9e77259c7cf?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Денис</span>
+                          <section class="flex flex-col grow shrink-0 mt-1 basis-0 w-fit max-md:max-w-full">
+                            <h3 class="inline-flex items-center gap-x-1 text-gray-800 decoration-2 hover:underline font-semibold hover:text-blue-600 focus:outline-none focus:underline focus:text-blue-600 dark:text-neutral-200 dark:hover:text-blue-500 dark:focus:outline-none dark:focus:text-blue-500">Добавить авторизацию через Telegram</h3>
+                            <p class="mt-1 text-sm text-gray-500 dark:text-neutral-500">Предлагаю добавить раздел с проблемными серверами,
+                              когда обнаруживается проблема, то сервера, где есть проблемы, будут попадать туда. Это поможет
+                              системам...</p>
+                            <div class="flex gap-2.5 items-center mt-4 leading-[171%] max-md:flex-wrap max-md:pr-5">
+                              <img loading="lazy"
+                                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
+                                   alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
+                              <div class="self-stretch my-auto">0</div>
+                              <div class="flex gap-1 self-stretch text-center">
+                                <span class="m-0.5 sm:m-1 p-1.5 sm:p-2 inline-block bg-gray-100 text-gray-800 text-xs rounded-md dark:bg-neutral-700 dark:text-neutral-200">Marketing</span>
+                                <span class="m-0.5 sm:m-1 p-1.5 sm:p-2 inline-block bg-gray-100 text-gray-800 text-xs rounded-md dark:bg-neutral-700 dark:text-neutral-200">Marketing</span>
+                                <span class="m-0.5 sm:m-1 p-1.5 sm:p-2 inline-block bg-gray-100 text-gray-800 text-xs rounded-md dark:bg-neutral-700 dark:text-neutral-200">Marketing</span>
+                              </div>
+                              <div class="flex gap-1.5 self-stretch my-auto whitespace-nowrap">
+                                <a class="py-2 px-3 flex items-center gap-x-3 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
+                                  <img class="flex-shrink-0 size-5 rounded-full" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=320&amp;h=320&amp;q=80" alt="Image Description">
+                                  <span class="text-sm text-gray-800 dark:text-neutral-200">
+            Макар
+          </span>
+
+                                </a>
+                              </div>
+                            </div>
+                          </section>
+                        </article>
+                      </div>
+                      <!-- End Team List Card -->
+
+
+                    </div>
+                    <!-- End Card List Group -->
+                    <!-- Add Team Modal -->
+                    <div id="hs-pro-datm" class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-x-hidden overflow-y-auto [--close-when-click-inside:true] pointer-events-none">
+                      <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-xl sm:w-full mx-3 mb-7 h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] sm:mx-auto">
+                        <div class="w-full max-h-full flex flex-col bg-white rounded-xl pointer-events-auto shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] dark:shadow-[0_10px_40px_10px_rgba(0,0,0,0.2)] dark:bg-neutral-800">
+                          <!-- Header -->
+                          <div class="py-3 px-4 flex justify-between items-center border-b dark:border-neutral-700">
+                            <h3 class="font-semibold text-gray-800 dark:text-neutral-200">
+                              Create team
+                            </h3>
+                            <button type="button" class="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:hover:bg-neutral-600 dark:text-neutral-400 dark:focus:bg-neutral-600" data-hs-overlay="#hs-pro-datm">
+                              <span class="sr-only">Close</span>
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                            </button>
                           </div>
+                          <!-- End Header -->
+
+                          <!-- Body -->
+                          <div class="overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+                            <div class="p-4 space-y-5">
+                              <div class="space-y-2">
+                                <label for="hs-pro-dactmt" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Title
+                                </label>
+
+                                <input id="hs-pro-dactmt" type="text" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" placeholder="Team title" value="">
+                              </div>
+
+                              <div class="space-y-2">
+                                <label for="dactmi" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Industry
+                                </label>
+
+                                <input id="dactmi" type="text" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" placeholder="Enter name">
+                              </div>
+
+                              <div class="space-y-2">
+                                <label for="dactmd" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Description
+                                </label>
+
+                                <textarea id="dactmd" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" rows="3" placeholder="Tell us a little bit about team"></textarea>
+                              </div>
+
+                              <div class="space-y-2">
+                                <label for="dactmm" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Members
+                                </label>
+
+                                <!-- Input Form -->
+                                <div class="flex items-center gap-x-3">
+                                  <input id="dactmm" type="text" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" placeholder="Enter name">
+
+                                  <button type="button" class="py-2 px-3 inline-flex justify-center items-center gap-x-2 text-start bg-white border border-gray-200 text-gray-800 text-sm font-medium rounded-lg shadow-sm align-middle hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-50 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700">
+                                    <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                                    Add
+                                  </button>
+                                </div>
+                                <!-- End Input Form -->
+                              </div>
+
+                              <div class="space-y-2">
+                                <label class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Suggested members
+                                </label>
+
+                                <div class="flex items-center space-x-2">
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-dactcach1" class="relative block rounded-full cursor-pointer">
+                                      <img class="hs-tooltip-toggle flex-shrink-0 size-[46px] rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80" alt="Image Description">
+                                      <span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-dactcach1" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                James Collins
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-dactcach2" class="relative block rounded-full cursor-pointer">
+                                      <span class="hs-tooltip-toggle flex flex-shrink-0 justify-center items-center size-[46px] bg-white border border-gray-200 text-gray-700 font-medium uppercase rounded-full dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300">L</span><span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-dactcach2" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Lori Hunter
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-dactcach3" class="relative block rounded-full cursor-pointer">
+                                      <img class="hs-tooltip-toggle flex-shrink-0 size-[46px] rounded-full" src="https://images.unsplash.com/photo-1679412330254-90cb240038c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80" alt="Image Description">
+                                      <span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-dactcach3" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Lewis Clarke
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-dactcach4" class="relative block rounded-full cursor-pointer">
+                                      <img class="hs-tooltip-toggle flex-shrink-0 size-[46px] rounded-full" src="https://images.unsplash.com/photo-1659482634023-2c4fda99ac0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80" alt="Image Description">
+                                      <span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-dactcach4" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Ella Lauda
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-dactcach5" class="relative block rounded-full cursor-pointer">
+                                      <span class="hs-tooltip-toggle flex flex-shrink-0 justify-center items-center size-[46px] bg-white border border-gray-200 text-gray-700 font-medium uppercase rounded-full dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300">O</span><span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-dactcach5" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Ols Schols
+              </span>
+                                  </div>
+                                  <!-- End User -->
+                                </div>
+                              </div>
+
+                              <!-- Drag 'n Drop -->
+                              <div class="space-y-2">
+                                <label class="block block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Cover
+                                </label>
+                                <div class="p-12 flex justify-center bg-white border border-dashed border-gray-300 rounded-xl dark:bg-neutral-800 dark:border-neutral-600">
+                                  <div class="text-center">
+                                    <svg class="w-16 text-gray-400 mx-auto dark:text-neutral-400" width="70" height="46" viewBox="0 0 70 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M6.05172 9.36853L17.2131 7.5083V41.3608L12.3018 42.3947C9.01306 43.0871 5.79705 40.9434 5.17081 37.6414L1.14319 16.4049C0.515988 13.0978 2.73148 9.92191 6.05172 9.36853Z" fill="currentColor" stroke="currentColor" stroke-width="2" class="fill-white stroke-gray-400 dark:fill-neutral-800 dark:stroke-neutral-500"/>
+                                      <path d="M63.9483 9.36853L52.7869 7.5083V41.3608L57.6982 42.3947C60.9869 43.0871 64.203 40.9434 64.8292 37.6414L68.8568 16.4049C69.484 13.0978 67.2685 9.92191 63.9483 9.36853Z" fill="currentColor" stroke="currentColor" stroke-width="2" class="fill-white stroke-gray-400 dark:fill-neutral-800 dark:stroke-neutral-500"/>
+                                      <rect x="17.0656" y="1.62305" width="35.8689" height="42.7541" rx="5" fill="currentColor" stroke="currentColor" stroke-width="2" class="fill-white stroke-gray-400 dark:fill-neutral-800 dark:stroke-neutral-500"/>
+                                      <path d="M47.9344 44.3772H22.0655C19.3041 44.3772 17.0656 42.1386 17.0656 39.3772L17.0656 35.9161L29.4724 22.7682L38.9825 33.7121C39.7832 34.6335 41.2154 34.629 42.0102 33.7025L47.2456 27.5996L52.9344 33.7209V39.3772C52.9344 42.1386 50.6958 44.3772 47.9344 44.3772Z" stroke="currentColor" stroke-width="2" class="stroke-gray-400 dark:stroke-neutral-500"/>
+                                      <circle cx="39.5902" cy="14.9672" r="4.16393" stroke="currentColor" stroke-width="2" class="stroke-gray-400 dark:stroke-neutral-500"/>
+                                    </svg>
+
+                                    <div class="mt-4 flex flex-wrap justify-center text-sm leading-6 text-gray-600">
+                <span class="pe-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Drop your files here or
+                </span>
+                                      <label for="hs-pro-dactc" class="relative cursor-pointer bg-white font-semibold text-blue-600 hover:text-blue-700 rounded-lg decoration-2 hover:underline focus-within:outline-none focus-within:ring-2 focus-within:ring-blue-600 focus-within:ring-offset-2 dark:bg-neutral-800 dark:text-blue-500 dark:hover:text-blue-600">
+                                        <span>browse</span>
+                                        <input id="hs-pro-dactc" type="file" class="sr-only">
+                                      </label>
+                                    </div>
+
+                                    <p class="mt-1 text-xs text-gray-400 dark:text-neutral-400">
+                                      CSV, XLS, DOCX
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- End Drag 'n Drop -->
+                            </div>
+                          </div>
+                          <!-- End Body -->
+
+                          <!-- Footer -->
+                          <div class="p-4 flex justify-between gap-x-2">
+                            <div class="w-full flex justify-end items-center gap-x-2">
+                              <button type="button" class="py-2 px-3 inline-flex justify-center items-center text-start bg-white border border-gray-200 text-gray-800 text-sm font-medium rounded-lg shadow-sm align-middle hover:bg-gray-50 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" data-hs-overlay="#hs-pro-datm">
+                                Cancel
+                              </button>
+
+                              <button type="button" class="py-2 px-3 inline-flex justify-center items-center gap-x-2 text-start bg-blue-600 border border-blue-600 text-white text-sm font-medium rounded-lg shadow-sm align-middle hover:bg-blue-700 focus:outline-none focus:ring-1 focus:ring-blue-300 dark:focus:ring-blue-500" data-hs-overlay="#hs-pro-datm">
+                                Create team
+                              </button>
+                            </div>
+                          </div>
+                          <!-- Footer -->
                         </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 pr-12 mt-6 text-sm border-t border-gray-700 border-solid text-slate-400 max-md:flex-wrap max-md:pr-5">
-                      <img loading="lazy"
-                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/9d10cfd621dde64166d848182f918394f6e83b6e4d463e5409ddae07dae7ecb8?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                           alt="Idea Image 2" class="shrink-0 w-12 rounded-xl aspect-[0.6]"/>
-                      <section class="flex flex-col grow shrink-0 mt-1 basis-0 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Уведомление в ТГ бота о технических
-                          работах</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Надо что бы бот который присылает коды подтверждения
-                          слал информацию о технических работах или сбоях</p>
-                        <div class="flex gap-2.5 items-center self-start px-px mt-4 whitespace-nowrap leading-[171%]">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                          <div class="self-stretch my-auto">1</div>
-                          <div class="flex gap-1 self-stretch text-center">
-                            <span class="justify-center px-2.5 py-1.5 rounded bg-slate-800">Уведомления</span>
-                            <span class="justify-center px-2.5 py-1.5 rounded bg-slate-800">Аккаунт</span>
+                      </div>
+                    </div>
+                    <!-- End Add Team Modal -->
+                    <!-- Add Team Modal -->
+                    <div id="hs-pro-detm" class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-x-hidden overflow-y-auto [--close-when-click-inside:true] pointer-events-none">
+                      <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-xl sm:w-full mx-3 mb-7 h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] sm:mx-auto">
+                        <div class="w-full max-h-full flex flex-col bg-white rounded-xl pointer-events-auto shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] dark:shadow-[0_10px_40px_10px_rgba(0,0,0,0.2)] dark:bg-neutral-800">
+                          <!-- Header -->
+                          <div class="py-3 px-4 flex justify-between items-center border-b dark:border-neutral-700">
+                            <h3 class="font-semibold text-gray-800 dark:text-neutral-200">
+                              Edit team
+                            </h3>
+                            <button type="button" class="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:hover:bg-neutral-600 dark:text-neutral-400 dark:focus:bg-neutral-600" data-hs-overlay="#hs-pro-detm">
+                              <span class="sr-only">Close</span>
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                            </button>
                           </div>
-                          <div class="flex gap-1.5 self-stretch my-auto">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/69ac191d83fa86e436a5db045ee592fa0e6a05706a5f4af4088a8b0f1569adb4?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center my-auto">Антон</span>
+                          <!-- End Header -->
+
+                          <!-- Body -->
+                          <div class="overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+                            <div class="p-4 space-y-5">
+                              <div class="space-y-2">
+                                <label for="hs-pro-daetmt" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Title
+                                </label>
+
+                                <input id="hs-pro-daetmt" type="text" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" placeholder="Team title" value="conference">
+                              </div>
+
+                              <div class="space-y-2">
+                                <label for="daetmi" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Industry
+                                </label>
+
+                                <input id="daetmi" type="text" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" placeholder="Enter name">
+                              </div>
+
+                              <div class="space-y-2">
+                                <label for="daetmd" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Description
+                                </label>
+
+                                <textarea id="daetmd" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" rows="3" placeholder="Tell us a little bit about team">Online meeting services group</textarea>
+                              </div>
+
+                              <div class="space-y-2">
+                                <label for="daetmm" class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Members
+                                </label>
+
+                                <!-- Input Form -->
+                                <div class="flex items-center gap-x-3">
+                                  <input id="daetmm" type="text" class="py-2 px-3 block w-full border-gray-200 rounded-lg text-sm placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:placeholder:text-white/60 dark:focus:ring-neutral-600" placeholder="Enter name">
+
+                                  <button type="button" class="py-2 px-3 inline-flex justify-center items-center gap-x-2 text-start bg-white border border-gray-200 text-gray-800 text-sm font-medium rounded-lg shadow-sm align-middle hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-50 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700">
+                                    <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                                    Add
+                                  </button>
+                                </div>
+                                <!-- End Input Form -->
+                              </div>
+
+                              <div class="space-y-2">
+                                <label class="block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Suggested members
+                                </label>
+
+                                <div class="flex items-center space-x-2">
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-daetcach1" class="relative block rounded-full cursor-pointer">
+                                      <img class="hs-tooltip-toggle flex-shrink-0 size-[46px] rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80" alt="Image Description">
+                                      <span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-daetcach1" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none" checked >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                James Collins
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-daetcach2" class="relative block rounded-full cursor-pointer">
+                                      <span class="hs-tooltip-toggle flex flex-shrink-0 justify-center items-center size-[46px] bg-white border border-gray-200 text-gray-700 font-medium uppercase rounded-full dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300">L</span><span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-daetcach2" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Lori Hunter
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-daetcach3" class="relative block rounded-full cursor-pointer">
+                                      <img class="hs-tooltip-toggle flex-shrink-0 size-[46px] rounded-full" src="https://images.unsplash.com/photo-1679412330254-90cb240038c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80" alt="Image Description">
+                                      <span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-daetcach3" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Lewis Clarke
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-daetcach4" class="relative block rounded-full cursor-pointer">
+                                      <img class="hs-tooltip-toggle flex-shrink-0 size-[46px] rounded-full" src="https://images.unsplash.com/photo-1659482634023-2c4fda99ac0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80" alt="Image Description">
+                                      <span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-daetcach4" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none"  >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Ella Lauda
+              </span>
+                                  </div>
+                                  <!-- End User -->
+
+                                  <!-- User -->
+                                  <div class="hs-tooltip inline-block">
+                                    <label for="hs-pro-daetcach5" class="relative block rounded-full cursor-pointer">
+                                      <span class="hs-tooltip-toggle flex flex-shrink-0 justify-center items-center size-[46px] bg-white border border-gray-200 text-gray-700 font-medium uppercase rounded-full dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300">O</span><span class="block absolute -top-1 -end-1 bg-white rounded-full dark:bg-neutral-800">
+                  <span class="relative flex flex-col justify-center items-center size-5 bg-blue-100 border-2 border-white text-blue-600 rounded-full dark:bg-blue-500/40 dark:border-neutral-800 dark:text-blue-300">
+                    <input type="checkbox" id="hs-pro-daetcach5" class="absolute top-0 start-0 size-full bg-transparent border-transparent rounded-full focus:outline-none" checked >
+                    <svg class="flex-shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                    </svg>
+                  </span>
+                </span>
+                                    </label>
+                                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 inline-block absolute invisible z-20 py-1.5 px-2.5 bg-gray-900 text-xs text-white rounded-lg dark:bg-neutral-700" role="tooltip">
+                Ols Schols
+              </span>
+                                  </div>
+                                  <!-- End User -->
+                                </div>
+                              </div>
+
+                              <!-- Drag 'n Drop -->
+                              <div class="space-y-2">
+                                <label class="block block mb-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+                                  Cover
+                                </label>
+                                <div class="p-12 flex justify-center bg-white border border-dashed border-gray-300 rounded-xl dark:bg-neutral-800 dark:border-neutral-600">
+                                  <div class="text-center">
+                                    <svg class="w-16 text-gray-400 mx-auto dark:text-neutral-400" width="70" height="46" viewBox="0 0 70 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M6.05172 9.36853L17.2131 7.5083V41.3608L12.3018 42.3947C9.01306 43.0871 5.79705 40.9434 5.17081 37.6414L1.14319 16.4049C0.515988 13.0978 2.73148 9.92191 6.05172 9.36853Z" fill="currentColor" stroke="currentColor" stroke-width="2" class="fill-white stroke-gray-400 dark:fill-neutral-800 dark:stroke-neutral-500"/>
+                                      <path d="M63.9483 9.36853L52.7869 7.5083V41.3608L57.6982 42.3947C60.9869 43.0871 64.203 40.9434 64.8292 37.6414L68.8568 16.4049C69.484 13.0978 67.2685 9.92191 63.9483 9.36853Z" fill="currentColor" stroke="currentColor" stroke-width="2" class="fill-white stroke-gray-400 dark:fill-neutral-800 dark:stroke-neutral-500"/>
+                                      <rect x="17.0656" y="1.62305" width="35.8689" height="42.7541" rx="5" fill="currentColor" stroke="currentColor" stroke-width="2" class="fill-white stroke-gray-400 dark:fill-neutral-800 dark:stroke-neutral-500"/>
+                                      <path d="M47.9344 44.3772H22.0655C19.3041 44.3772 17.0656 42.1386 17.0656 39.3772L17.0656 35.9161L29.4724 22.7682L38.9825 33.7121C39.7832 34.6335 41.2154 34.629 42.0102 33.7025L47.2456 27.5996L52.9344 33.7209V39.3772C52.9344 42.1386 50.6958 44.3772 47.9344 44.3772Z" stroke="currentColor" stroke-width="2" class="stroke-gray-400 dark:stroke-neutral-500"/>
+                                      <circle cx="39.5902" cy="14.9672" r="4.16393" stroke="currentColor" stroke-width="2" class="stroke-gray-400 dark:stroke-neutral-500"/>
+                                    </svg>
+
+                                    <div class="mt-4 flex flex-wrap justify-center text-sm leading-6 text-gray-600">
+                <span class="pe-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Drop your files here or
+                </span>
+                                      <label for="hs-pro-daetc" class="relative cursor-pointer bg-white font-semibold text-blue-600 hover:text-blue-700 rounded-lg decoration-2 hover:underline focus-within:outline-none focus-within:ring-2 focus-within:ring-blue-600 focus-within:ring-offset-2 dark:bg-neutral-800 dark:text-blue-500 dark:hover:text-blue-600">
+                                        <span>browse</span>
+                                        <input id="hs-pro-daetc" type="file" class="sr-only">
+                                      </label>
+                                    </div>
+
+                                    <p class="mt-1 text-xs text-gray-400 dark:text-neutral-400">
+                                      CSV, XLS, DOCX
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- End Drag 'n Drop -->
+                            </div>
                           </div>
+                          <!-- End Body -->
+
+                          <!-- Footer -->
+                          <div class="p-4 flex justify-between gap-x-2">
+                            <div class="w-full flex justify-end items-center gap-x-2">
+                              <button type="button" class="py-2 px-3 inline-flex justify-center items-center text-start bg-white border border-gray-200 text-gray-800 text-sm font-medium rounded-lg shadow-sm align-middle hover:bg-gray-50 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" data-hs-overlay="#hs-pro-detm">
+                                Cancel
+                              </button>
+
+                              <button type="button" class="py-2 px-3 inline-flex justify-center items-center gap-x-2 text-start bg-blue-600 border border-blue-600 text-white text-sm font-medium rounded-lg shadow-sm align-middle hover:bg-blue-700 focus:outline-none focus:ring-1 focus:ring-blue-300 dark:focus:ring-blue-500" data-hs-overlay="#hs-pro-detm">
+                                Save changes
+                              </button>
+                            </div>
+                          </div>
+                          <!-- Footer -->
                         </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 text-sm border-t border-gray-700 border-solid text-slate-400 max-md:flex-wrap">
-                      <img loading="lazy"
-                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/23d1b03952f4f84d21da2e8504d890647ec4300da83fabd04b0bd0aaa5b6323f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                           alt="Idea Image 3" class="shrink-0 w-12 rounded-xl aspect-[0.6]"/>
-                      <section class="flex flex-col grow shrink-0 mt-1 basis-0 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Сервис хранения секретов (Secret
-                          Management)</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Примеры: Hashicorp Vault Secrets или Infisical такие
-                          системы позволяют управлять хранением паролей и дают возможность легко передать их в Docker,
-                          VM...</p>
-                        <div class="flex gap-2.5 items-center mt-4 leading-[171%] max-md:flex-wrap max-md:pr-5">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                          <div class="self-stretch my-auto">1</div>
-                          <div class="flex gap-1 self-stretch text-center">
-                            <span class="justify-center px-3 py-1.5 rounded bg-slate-800">Новые сервисы</span>
-                            <span
-                                class="justify-center px-3 py-1.5 whitespace-nowrap rounded bg-slate-800">Проекты</span>
-                            <span
-                                class="justify-center px-3 py-2 whitespace-nowrap rounded bg-slate-800">Безопасность</span>
-                          </div>
-                          <div class="flex gap-1.5 self-stretch my-auto whitespace-nowrap">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/8fc7bea163b1d83dfe63ddc04003c55ee3616334fd4364f9f367b616546fdc67?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Александр</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 pr-7 text-sm border-t border-gray-700 border-solid max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
-                      <section
-                          class="flex flex-col justify-center items-start px-4 py-5 text-white whitespace-nowrap rounded-xl bg-slate-800 leading-[174%]">
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bc20f8d450a490e8d7273659a289dacdb51a064aa3e7ec573b718cdbd1ec16b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote 16" class="w-2.5 aspect-[2]"/>
-                        <div class="self-stretch mt-3">16</div>
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d950ad3cd23ba946dd999499cbff2bc25016f5dcd16f8713eaa6126830e3d3?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote" class="mt-3 w-2.5 aspect-[2]"/>
-                      </section>
-                      <section class="flex flex-col grow shrink-0 mt-1 basis-0 text-slate-400 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Предупреждать об авариях в ЦОД</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">На фоне DDOS-атаки, которая случилась 20 мая 2024 в
-                          новосибирском ЦОД предлагаю добавить в интерфейс управления информацию о больших
-                          массовых...</p>
-                        <div
-                            class="flex gap-2.5 items-center mt-4 whitespace-nowrap leading-[171%] max-md:flex-wrap max-md:pr-5">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                          <div class="self-stretch my-auto">1</div>
-                          <div class="flex gap-1 self-stretch text-center">
-                            <span class="justify-center px-3 py-1.5 rounded bg-slate-800">Поддержка</span>
-                            <span class="justify-center px-3 py-1.5 rounded bg-slate-800">Уведомления</span>
-                            <span class="justify-center px-3 py-1.5 rounded bg-slate-800">Мониторинг</span>
-                          </div>
-                          <div class="flex gap-1.5 self-stretch my-auto">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5ff3b06e93a5bce6172c68ec352180445f80a7ba755341ca832659a70667667?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Мухачев</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 text-sm border-t border-gray-700 border-solid text-slate-400 max-md:flex-wrap">
-                      <img loading="lazy"
-                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/e7a678b20da3211de62e6d23971c8ea1a89f57da0ed1e23e03e5690f4a28c8f1?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                           alt="Idea Image 4" class="shrink-0 w-12 rounded-xl aspect-[0.6]"/>
-                      <section class="flex flex-col grow shrink-0 mt-1 basis-0 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Улучшения раздела "Заработать на
-                          баге"</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Улучшения касаются формы заявки (не через
-                          BI.ZONE):<br/>1. Добавить возможность вставлять скриншот через Ctrl+V<br/>2. Дать посмотреть
-                          уже зарепорченные мной баги...</p>
-                        <div class="flex gap-2.5 mt-4 leading-[171%] max-md:flex-wrap">
-                          <div class="flex flex-auto gap-2 items-center max-md:flex-wrap">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                            <div class="self-stretch my-auto">0</div>
-                            <span class="justify-center self-stretch px-3 py-1.5 text-center rounded bg-slate-800">Панель управления</span>
-                          </div>
-                          <div class="flex gap-1.5 my-auto">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/80a009e2e80d833d7a264d4e0a61455f1edf3bf35131f1d55adb7b5e19ead66f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Денис</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 pr-12 text-sm border-t border-gray-700 border-solid text-slate-400 max-md:flex-wrap max-md:pr-5">
-                      <img loading="lazy"
-                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/e929b9334ea1b8f62c72d6857dd4214e12cd3e538dfd4795c7dd25b365bbe2b8?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                           alt="Idea Image 5" class="shrink-0 w-12 rounded-xl aspect-[0.6]"/>
-                      <section class="flex flex-col grow shrink-0 mt-1 basis-0 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Раздел проблемные сервера</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Предлагаю добавить раздел с проблемными серверами,
-                          когда обнаруживается проблема, то сервера, где есть проблемы, будут попадать туда. Это поможет
-                          системам...</p>
-                        <div class="flex gap-2.5 items-center mt-4 leading-[171%] max-md:flex-wrap max-md:pr-5">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                          <div class="self-stretch my-auto">0</div>
-                          <div class="flex gap-1 self-stretch text-center">
-                            <span class="justify-center px-2.5 py-1.5 whitespace-nowrap rounded bg-slate-800">Уведомления</span>
-                            <span class="justify-center px-3 py-1.5 rounded bg-slate-800">Панель управления</span>
-                            <span
-                                class="justify-center px-3 py-1.5 whitespace-nowrap rounded bg-slate-800">Мониторинг</span>
-                          </div>
-                          <div class="flex gap-1.5 self-stretch my-auto whitespace-nowrap">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d8556f938581c3805d46c53541fbf6aaf203e0cd705e760806d6a50917de0f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Маг</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 pr-6 border-t border-gray-700 border-solid max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
-                      <section
-                          class="flex flex-col justify-center items-start px-4 py-5 text-sm leading-6 text-white whitespace-nowrap rounded-xl bg-slate-800">
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bc20f8d450a490e8d7273659a289dacdb51a064aa3e7ec573b718cdbd1ec16b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote 17" class="w-2.5 aspect-[2]"/>
-                        <div class="mt-3.5">17</div>
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d950ad3cd23ba946dd999499cbff2bc25016f5dcd16f8713eaa6126830e3d3?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote" class="mt-3 w-2.5 aspect-[2]"/>
-                      </section>
-                      <section
-                          class="flex flex-col grow shrink-0 mt-1 text-sm basis-0 text-slate-400 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Автоматический выкуп
-                          освободившегося домена</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Иногда бывает так, что кто-то занимает домен,
-                          который ты очень хотел, но ничего с ним не делает. Каждый раз проверять...</p>
-                        <div class="flex gap-2.5 self-start mt-4 whitespace-nowrap leading-[171%]">
-                          <div class="flex gap-2 items-center">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                            <div class="self-stretch my-auto">2</div>
-                            <span class="justify-center self-stretch px-2.5 py-1.5 text-center rounded bg-slate-800">Домены</span>
-                          </div>
-                          <div class="flex gap-1.5 my-auto">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/02a7fe4e205c2b3575b5d898e0024367d0e4398c0d9a76622373fff2c1fa18d2?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">George</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 pr-10 border-t border-gray-700 border-solid max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
-                      <section
-                          class="flex flex-col justify-center items-start px-4 py-5 text-sm leading-6 text-white whitespace-nowrap rounded-xl bg-slate-800">
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bc20f8d450a490e8d7273659a289dacdb51a064aa3e7ec573b718cdbd1ec16b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote 12" class="w-2.5 aspect-[2]"/>
-                        <div class="mt-3.5">12</div>
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d950ad3cd23ba946dd999499cbff2bc25016f5dcd16f8713eaa6126830e3d3?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote" class="mt-3 w-2.5 aspect-[2]"/>
-                      </section>
-                      <section
-                          class="flex flex-col grow shrink-0 mt-1 text-sm basis-0 text-slate-400 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Калькулятор стоимости ресурсов с
-                          поддержкой разных ресурсов</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Вот допустим, мне хочется оценить проект. В Yandex,
-                          AWS, GCP я могу добавить нужные мне сервера, базы данных, kubernetes,в все такие системы
-                          позволяют управлять хранениями, ресурсами и давать легко передать их в Docker, VM...</p>
-                        <div class="flex gap-2.5 items-center mt-4 leading-[171%] max-md:flex-wrap max-md:pr-5">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                          <div class="self-stretch my-auto">0</div>
-                          <div class="flex gap-1 self-stretch text-center">
-                            <span class="justify-center px-2.5 py-1.5 rounded bg-slate-800">Оплата услуг</span>
-                            <span class="justify-center px-3 py-1.5 rounded bg-slate-800">Новые сервисы</span>
-                          </div>
-                          <div class="flex gap-1.5 self-stretch my-auto whitespace-nowrap">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/261a3dc73242787fc474cbf5c5d232f4bb7aa94636018db221f4bf595cc3fdcb?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Денис</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 pr-10 border-t border-gray-700 border-solid max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
-                      <section
-                          class="flex flex-col justify-center items-start px-4 py-5 text-sm leading-6 text-white whitespace-nowrap rounded-xl bg-slate-800">
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bc20f8d450a490e8d7273659a289dacdb51a064aa3e7ec573b718cdbd1ec16b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote 13" class="w-2.5 aspect-[2]"/>
-                        <div class="mt-3.5">13</div>
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0d950ad3cd23ba946dd999499cbff2bc25016f5dcd16f8713eaa6126830e3d3?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Vote" class="mt-3 w-2.5 aspect-[2]"/>
-                      </section>
-                      <section
-                          class="flex flex-col grow shrink-0 mt-1 text-sm basis-0 text-slate-400 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Предлагать оптимизацию затрат на
-                          облачные ресурсы в зависимости от их профиля потребления</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Банальный пример - есть сервер 4 cpu / 8 gb ram,
-                          постоянно потребляет допустим 30% по процессору, система может предложить...</p>
-                        <div class="flex gap-2.5 self-start mt-4 whitespace-nowrap leading-[171%]">
-                          <div class="flex gap-2 items-center">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                            <div class="self-stretch my-auto">0</div>
-                            <span class="justify-center self-stretch px-3 py-1.5 text-center rounded bg-slate-800">Облачные серверы</span>
-                          </div>
-                          <div class="flex gap-1.5 my-auto">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e5c1333bdb96bdfdb900bd4d16d349a9463c7b173addf15543e576829b28de9c?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Денис</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
-                    <article
-                        class="flex gap-5 justify-center items-start py-6 text-sm border-t border-gray-700 border-solid text-slate-400 max-md:flex-wrap">
-                      <img loading="lazy"
-                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/7181ff58a0c7277c03b42a9a42c10d29b275f7086324547bb44682b7dfcad069?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                           alt="Idea Image 6" class="shrink-0 w-12 rounded-xl aspect-[0.6]"/>
-                      <section class="flex flex-col grow shrink-0 mt-1 basis-0 w-fit max-md:max-w-full">
-                        <h3 class="text-base leading-5 text-white max-md:max-w-full">Понятные правила тарификации для
-                          Managed ресурсов</h3>
-                        <p class="mt-4 leading-6 max-md:max-w-full">Было бы здорово, аналогично новому конфигуратору,
-                          иметь понятные, легко рассчитываемые правила тарификации не только для серверов, но и для
-                          Managed...</p>
-                        <div class="flex gap-2.5 self-start mt-4 leading-[171%]">
-                          <div class="flex gap-2 items-center">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                            <div class="self-stretch my-auto">0</div>
-                            <span class="justify-center self-stretch px-2.5 py-1.5 text-center rounded bg-slate-800">Оплата услуг</span>
-                          </div>
-                          <div class="flex gap-1.5 my-auto">
-                            <img loading="lazy"
-                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/13d6a058e5b52c9ba05c6d9440c791e02b219e539ba6d1a71a162adeedb2592f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                 alt="Author" class="shrink-0 w-4 aspect-square"/>
-                            <span class="justify-center self-start">Денис</span>
-                          </div>
-                        </div>
-                      </section>
-                    </article>
+                      </div>
+                    </div>
+                    <!-- End Add Team Modal -->
+
                     <nav
                         class="flex gap-5 items-center mt-4 text-sm leading-4 text-center text-white whitespace-nowrap max-md:flex-wrap max-md:pr-5">
                       <div class="flex gap-1.5 justify-center self-stretch my-auto rounded-lg text-slate-400">
@@ -559,12 +587,10 @@
                 </section>
                 <aside class="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
                   <div class="flex flex-col text-sm max-md:mt-10">
-                    <div
-                        class="flex gap-5 justify-end px-3.5 py-2.5 text-white rounded-lg border border-gray-700 border-solid leading-[171%]">
-                      <div class="justify-center my-auto">Сначала новые</div>
-                      <img loading="lazy"
-                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/70fd76befdcb741f977b4b1e86c5a4fd8bec08a482f1b71903f492ad92ae70bd?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                           alt="Sort" class="shrink-0 w-6 aspect-square"/>
+                    <div class="flex gap-5 justify-end px-3.5 py-2.5 text-white rounded-lg border border-gray-700 border-solid leading-[171%]">
+                      <p>dropdawn</p>
+
+
                     </div>
                     <section
                         class="flex flex-col justify-center py-5 mt-3 w-full rounded-lg bg-slate-800 leading-[171%]">

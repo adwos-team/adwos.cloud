@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@preline/input-number": "^2.1.0",
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
     "preline": "^2.1.0",
