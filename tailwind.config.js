@@ -1,9 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 import preline from "preline/plugin";
+import forms from '@tailwindcss/forms'
 export default {
-  content: ["./node_modules/preline/preline.js"],
+  content: [
+    './pages/**/*.{ts,tsx,vue}',
+    './components/**/*.{ts,tsx,vue}',
+    './app/**/*.{ts,tsx,vue}',
+    './src/**/*.{ts,tsx,vue}',
+    './node_modules/preline/preline.js'
+  ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        screens: {
+          xl: "85rem"
+        }
+      }
+    },
   },
-  plugins: [preline],
+  plugins: [forms, preline],
 };
