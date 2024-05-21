@@ -53,78 +53,14 @@
               <div class="flex gap-5 max-md:flex-col max-md:gap-0">
                 <section class="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
                   <div class="flex flex-col grow max-md:mt-10 space-y-3 max-md:max-w-full">
-                    <div class="relative">
-                      <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3.5">
-                        <svg class="flex-shrink-0 size-4 text-gray-400 dark:text-white/60" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
-                      </div>
-                      <input type="text" class="py-2 ps-10 pe-16 block w-full bg-white border-gray-200 rounded-lg text-sm focus:outline-none focus:border-gray-200 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder:text-neutral-400 dark:focus:ring-neutral-600" placeholder="Поиск по идеям" data-hs-overlay="#hs-pro-dnsm">
-                      <div class="absolute inset-y-0 end-0 flex items-center pointer-events-none z-20 pe-3 text-gray-400">
-                        <svg class="flex-shrink-0 size-3 text-gray-400 dark:text-white/60" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"></path></svg>
-                        <span class="mx-1">
-                          <svg class="flex-shrink-0 size-3 text-gray-400 dark:text-white/60" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
-                        </span>
-                        <span class="text-xs">/</span>
-                      </div>
-                    </div>
+                    <Search />
 
 
 
 
                     <!-- Card List Group -->
                     <div class="space-y-3">
-                      <!-- Team List Card -->
-                      <div class="p-4 relative flex flex-col bg-white border border-gray-200 rounded-xl dark:bg-neutral-800 dark:border-neutral-700">
-                        <article
-                            class="flex gap-5 bg-white border-gray-200 dark:bg-neutral-800 dark:border-neutral-700 justify-center items-start pr-12 text-sm text-slate-400 max-md:flex-wrap max-md:pr-5">
-                          <div class="shrink-0 w-12 rounded-xl aspect-[0.6]">
-                            <!-- Input Number -->
-                            <div class="py-2 px-3 flex flex-col border border-gray-200 rounded-lg dark:border-neutral-700" data-hs-input-number="">
-                              <div class="flex flex-col items-center gap-x-1.5">
-                                <button type="button" class="size-6 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-md border border-gray-200  text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none  dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" data-hs-input-number-decrement="">
-                                  <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                  </svg>
-                                </button>
-                                <input class="p-0 w-6 bg-transparent border-0 text-gray-800 text-center focus:ring-0 dark:text-white" type="text" value="0" data-hs-input-number-input="">
-                                <button type="button" class="size-6 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-md border border-gray-200  text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none  dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" data-hs-input-number-increment="">
-                                  <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5v14"></path>
-                                  </svg>
-                                </button>
-                              </div>
-                            </div>
-                            <!-- End Input Number -->
-                          </div>
-                          <section class="flex flex-col grow shrink-0 mt-1 basis-0 w-fit max-md:max-w-full">
-                            <h3 class="inline-flex items-center gap-x-1 text-gray-800 decoration-2 hover:underline font-semibold hover:text-blue-600 focus:outline-none focus:underline focus:text-blue-600 dark:text-neutral-200 dark:hover:text-blue-500 dark:focus:outline-none dark:focus:text-blue-500">Добавить авторизацию через Telegram</h3>
-                            <p class="mt-1 text-sm text-gray-500 dark:text-neutral-500">Предлагаю добавить раздел с проблемными серверами,
-                              когда обнаруживается проблема, то сервера, где есть проблемы, будут попадать туда. Это поможет
-                              системам...</p>
-                            <div class="flex gap-2.5 items-center mt-4 leading-[171%] max-md:flex-wrap max-md:pr-5">
-                              <img loading="lazy"
-                                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/e23eea0d982492180bc254599060afcc32f92f100c2e9b89ce46105502821e5f?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                                   alt="Vote" class="shrink-0 self-stretch my-auto w-4 aspect-square"/>
-                              <div class="self-stretch my-auto">0</div>
-                              <div class="flex gap-1 self-stretch text-center">
-                                <span class="m-0.5 sm:m-1 p-1.5 sm:p-2 inline-block bg-gray-100 text-gray-800 text-xs rounded-md dark:bg-neutral-700 dark:text-neutral-200">Marketing</span>
-                                <span class="m-0.5 sm:m-1 p-1.5 sm:p-2 inline-block bg-gray-100 text-gray-800 text-xs rounded-md dark:bg-neutral-700 dark:text-neutral-200">Marketing</span>
-                                <span class="m-0.5 sm:m-1 p-1.5 sm:p-2 inline-block bg-gray-100 text-gray-800 text-xs rounded-md dark:bg-neutral-700 dark:text-neutral-200">Marketing</span>
-                              </div>
-                              <div class="flex gap-1.5 self-stretch my-auto whitespace-nowrap">
-                                <a class="py-2 px-3 flex items-center gap-x-3 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
-                                  <img class="flex-shrink-0 size-5 rounded-full" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=320&amp;h=320&amp;q=80" alt="Image Description">
-                                  <span class="text-sm text-gray-800 dark:text-neutral-200">
-            Макар
-          </span>
-
-                                </a>
-                              </div>
-                            </div>
-                          </section>
-                        </article>
-                      </div>
-                      <!-- End Team List Card -->
+                      <Card />
 
 
                     </div>
@@ -558,87 +494,175 @@
                     </div>
                     <!-- End Add Team Modal -->
 
-                    <nav
-                        class="flex gap-5 items-center mt-4 text-sm leading-4 text-center text-white whitespace-nowrap max-md:flex-wrap max-md:pr-5">
-                      <div class="flex gap-1.5 justify-center self-stretch my-auto rounded-lg text-slate-400">
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/cef5c7e06e46e4dd5228fd28789f390ea16f1d714915acdbca04846d05d4add2?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Back" class="shrink-0 w-6 aspect-square"/>
-                        <div class="my-auto">Назад</div>
-                      </div>
-                      <div class="flex gap-2 self-stretch">
-                        <button class="justify-center items-center px-4 rounded-lg bg-slate-700 h-[33px] w-[33px]">1
-                        </button>
-                        <button class="justify-center px-4 py-3 rounded-lg bg-slate-800">2</button>
-                        <button class="justify-center px-4 py-3 rounded-lg bg-slate-800">3</button>
-                        <button class="justify-center px-4 py-3 rounded-lg bg-slate-800">4</button>
-                        <button class="justify-center px-4 py-3 rounded-lg bg-slate-800">5</button>
-                        <button class="justify-center px-4 pt-5 pb-3 rounded-lg bg-slate-800">...</button>
-                        <button class="justify-center px-4 py-3 rounded-lg bg-slate-800 leading-[126%]">127</button>
-                      </div>
-                      <div class="flex gap-1.5 justify-center self-stretch my-auto rounded-lg">
-                        <div class="grow my-auto">Вперед</div>
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef9ac3ae90b0399423d2847544e1d9f3da32f5556f15577889194da4aa7dfc6b?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="Forward" class="shrink-0 w-6 aspect-square"/>
-                      </div>
-                    </nav>
+                    <pagination />
                   </div>
                 </section>
                 <aside class="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
                   <div class="flex flex-col text-sm max-md:mt-10">
-                    <div class="flex gap-5 justify-end px-3.5 py-2.5 text-white rounded-lg border border-gray-700 border-solid leading-[171%]">
-                      <p>dropdawn</p>
-
-
-                    </div>
+                  <dropdowns />
                     <section
-                        class="flex flex-col justify-center py-5 mt-3 w-full rounded-lg bg-slate-800 leading-[171%]">
+                        class="flex flex-col justify-center mt-4 w-full rounded-xl bg-white border border-gray-200 dark:bg-neutral-800 dark:border-neutral-700 max-md:px-5">
                       <div class="flex gap-4 justify-between items-center">
-                        <div class="shrink-0 self-stretch w-0.5 bg-indigo-500 h-[34px]"></div>
-                        <img loading="lazy"
-                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/6c359b1d41ed671dcb41c5fc218f2c3192a3347da1a237da74ca726f225dad10?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                             alt="New Ideas" class="shrink-0 self-stretch my-auto w-6 aspect-square"/>
-                        <div class="self-stretch my-auto text-white">Новые идеи</div>
-                        <div class="self-stretch my-auto text-slate-400">1267</div>
+                        <nav class="hs-accordion-group p-3 w-full flex flex-col flex-wrap" data-hs-accordion-always-open="">
+                          <ul class="space-y-1.5">
+                            <li>
+                              <a class="flex items-center gap-x-3.5 py-2 px-2.5 bg-gray-100 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-700 dark:text-white" href="#">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                Dashboard
+                              </a>
+                            </li>
+
+                            <li class="hs-accordion" id="users-accordion">
+                              <button type="button" class="hs-accordion-toggle hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 dark:hs-accordion-active:text-white">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                Users
+
+                                <svg class="hs-accordion-active:block ms-auto hidden size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"></path></svg>
+
+                                <svg class="hs-accordion-active:hidden ms-auto block size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+                              </button>
+
+                              <div id="users-accordion" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden" style="height: 0px;">
+                                <ul class="hs-accordion-group ps-3 pt-2" data-hs-accordion-always-open="">
+                                  <li class="hs-accordion" id="users-accordion-sub-1">
+                                    <button type="button" class="hs-accordion-toggle hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 dark:hs-accordion-active:text-white">
+                                      Sub Menu 1
+
+                                      <svg class="hs-accordion-active:block ms-auto hidden size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"></path></svg>
+
+                                      <svg class="hs-accordion-active:hidden ms-auto block size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+                                    </button>
+
+                                    <div id="users-accordion-sub-1" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden">
+                                      <ul class="pt-2 ps-2">
+                                        <li>
+                                          <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                            Link 1
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                            Link 2
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                            Link 3
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                  <li class="hs-accordion" id="users-accordion-sub-2">
+                                    <button type="button" class="hs-accordion-toggle hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 dark:hs-accordion-active:text-white">
+                                      Sub Menu 2
+
+                                      <svg class="hs-accordion-active:block ms-auto hidden size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"></path></svg>
+
+                                      <svg class="hs-accordion-active:hidden ms-auto block size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+                                    </button>
+
+                                    <div id="users-accordion-sub-2" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden ps-2">
+                                      <ul class="pt-2 ps-2">
+                                        <li>
+                                          <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                            Link 1
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                            Link 2
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                            Link 3
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+
+                            <li class="hs-accordion" id="account-accordion">
+                              <button type="button" class="hs-accordion-toggle hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 dark:hs-accordion-active:text-white">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="15" r="3"></circle><circle cx="9" cy="7" r="4"></circle><path d="M10 15H6a4 4 0 0 0-4 4v2"></path><path d="m21.7 16.4-.9-.3"></path><path d="m15.2 13.9-.9-.3"></path><path d="m16.6 18.7.3-.9"></path><path d="m19.1 12.2.3-.9"></path><path d="m19.6 18.7-.4-1"></path><path d="m16.8 12.3-.4-1"></path><path d="m14.3 16.6 1-.4"></path><path d="m20.7 13.8 1-.4"></path></svg>
+                                Account
+
+                                <svg class="hs-accordion-active:block ms-auto hidden size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"></path></svg>
+
+                                <svg class="hs-accordion-active:hidden ms-auto block size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+                              </button>
+
+                              <div id="account-accordion" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden">
+                                <ul class="pt-2 ps-2">
+                                  <li>
+                                    <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                      Link 1
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                      Link 2
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                      Link 3
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+
+                            <li class="hs-accordion" id="projects-accordion">
+                              <button type="button" class="hs-accordion-toggle hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 dark:hs-accordion-active:text-white">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 2H8.6c-.4 0-.8.2-1.1.5-.3.3-.5.7-.5 1.1v12.8c0 .4.2.8.5 1.1.3.3.7.5 1.1.5h9.8c.4 0 .8-.2 1.1-.5.3-.3.5-.7.5-1.1V6.5L15.5 2z"></path><path d="M3 7.6v12.8c0 .4.2.8.5 1.1.3.3.7.5 1.1.5h9.8"></path><path d="M15 2v5h5"></path></svg>
+                                Projects
+
+                                <svg class="hs-accordion-active:block ms-auto hidden size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"></path></svg>
+
+                                <svg class="hs-accordion-active:hidden ms-auto block size-4 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+                              </button>
+
+                              <div id="projects-accordion" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden">
+                                <ul class="pt-2 ps-2">
+                                  <li>
+                                    <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                      Link 1
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                      Link 2
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                                      Link 3
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+
+                            <li><a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                              <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line><path d="M8 14h.01"></path><path d="M12 14h.01"></path><path d="M16 14h.01"></path><path d="M8 18h.01"></path><path d="M12 18h.01"></path><path d="M16 18h.01"></path></svg>
+                              Calendar
+                            </a></li>
+                            <li><a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300" href="#">
+                              <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                              Documentation
+                            </a></li>
+                          </ul>
+                        </nav>
+
+
+
                       </div>
-                      <div class="flex flex-col mt-3.5">
-                        <div class="flex gap-4 justify-between items-center whitespace-nowrap">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/d48571732fbbfff470b824cbf4b9dc1112cdb04a26d05e96528a0675a5523365?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Planned" class="shrink-0 self-stretch w-6 aspect-square"/>
-                          <div class="self-stretch my-auto text-white">Запланировано</div>
-                          <div class="self-stretch my-auto text-slate-400">22</div>
-                        </div>
-                        <div class="flex gap-4 items-center mt-5 whitespace-nowrap">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba4a444026419c23965e10e0ee159eebd28435592263574eca3646e776d1fc57?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Rejected" class="shrink-0 self-stretch w-6 aspect-square"/>
-                          <div class="self-stretch my-auto text-white">Отклонено</div>
-                          <div class="flex-auto self-stretch my-auto text-slate-400">211</div>
-                        </div>
-                        <div class="flex gap-4 items-center mt-5 whitespace-nowrap">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/8599e86b11eecdc2a45f12ee1442a2bfd37076c443221a6eb8dd702f1ec3219c?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="Implemented" class="shrink-0 self-stretch w-6 aspect-square"/>
-                          <div class="self-stretch my-auto text-white">Реализовано</div>
-                          <div class="flex-auto self-stretch my-auto text-slate-400">581</div>
-                        </div>
-                        <div class="flex gap-4 items-center mt-5 whitespace-nowrap">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/662b2d8c79cfbfc21bb1aa2beab67368a2ca3cc894fc8ddf041b101dade1747d?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="All" class="shrink-0 self-stretch w-6 aspect-square"/>
-                          <div class="self-stretch my-auto text-white">Все</div>
-                          <div class="flex-auto self-stretch my-auto text-slate-400">2081</div>
-                        </div>
-                        <div class="flex gap-4 items-center mt-5">
-                          <img loading="lazy"
-                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/f8327d9522297b8ce1e318dc59fdbbb220670d87ba6c48c9aec5610689ff8863?apiKey=6bdd9ad3ba12443585f5dbd1516a5d23&"
-                               alt="My Ideas" class="shrink-0 self-stretch w-6 aspect-square"/>
-                          <div class="self-stretch my-auto text-white">Мои идеи</div>
-                          <div class="flex-auto self-stretch my-auto text-slate-400">1</div>
-                        </div>
-                      </div>
+
                     </section>
                     <section class="flex flex-col px-5 py-6 mt-4 w-full rounded-lg bg-slate-800">
                       <div class="flex gap-5 justify-between px-px">
