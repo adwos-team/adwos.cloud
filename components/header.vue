@@ -1,4 +1,4 @@
-<template>
+<><template>
 
   <!-- ========== HEADER ========== -->
   <header class="fixed top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 bg-white border-b border-gray-200">
@@ -433,460 +433,460 @@
 
         <!-- Account Dropdown -->
         <div class="hs-dropdown relative inline-flex   [--strategy:absolute] [--auto-close:inside] [--placement:bottom-right]">
-                    <button id="hs-pro-dnad" type="button" class="inline-flex flex-shrink-0 items-center gap-x-3 text-start rounded-full focus:outline-none focus:bg-gray-100">
-        <img class="flex-shrink-0 size-[38px] rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
-        </button>
+          <button id="hs-pro-dnad" type="button" class="inline-flex flex-shrink-0 items-center gap-x-3 text-start rounded-full focus:outline-none focus:bg-gray-100">
+            <img class="flex-shrink-0 size-[38px] rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
+          </button>
 
-        <!-- Account Dropdown -->
-        <div class="hs-dropdown-menu hs-dropdown-open:opacity-100 w-60 transition-[opacity,margin] duration opacity-0 hidden z-10 bg-white rounded-xl shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)]" aria-labelledby="hs-pro-dnad">
-          <div class="p-1 border-b border-gray-200">
-            <a class="py-2 px-3 flex items-center gap-x-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="../../pro/dashboard/user-profile-my-profile.html">
-              <img class="flex-shrink-0 size-8 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
+          <!-- Account Dropdown -->
+          <div class="hs-dropdown-menu hs-dropdown-open:opacity-100 w-60 transition-[opacity,margin] duration opacity-0 hidden z-10 bg-white rounded-xl shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)]" aria-labelledby="hs-pro-dnad">
+            <div class="p-1 border-b border-gray-200">
+              <a class="py-2 px-3 flex items-center gap-x-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="../../pro/dashboard/user-profile-my-profile.html">
+                <img class="flex-shrink-0 size-8 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
 
-              <div class="grow">
+                <div class="grow">
                             <span class="text-sm font-semibold text-gray-800">
                               James Collison
                             </span>
-                <p class="text-xs text-gray-500">
-                  Preline@HS
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="p-1">
-            <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
-              <svg class="flex-shrink-0 mt-0.5 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
-              Billing
-            </a>
-            <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
-              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
-              Settings
-            </a>
-            <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
-              <svg class="flex-shrink-0 mt-0.5 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-              My account
-            </a>
-          </div>
-          <div class="px-4 py-3.5 border-y border-gray-200">
-            <!-- Switch/Toggle -->
-            <div class="flex justify-between items-center">
-              <label for="hs-pro-dnaddm" class="text-sm text-gray-800">Dark mode</label>
-              <div class="relative inline-block">
-                <input data-hs-theme-switch type="checkbox" id="hs-pro-dnaddm" class="relative w-11 h-6 p-px bg-gray-100 border-transparent text-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:ring-blue-600 disabled:opacity-50 disabled:pointer-events-none checked:bg-none checked:text-blue-600 checked:border-blue-600 focus:checked:border-blue-600
+                  <p class="text-xs text-gray-500">
+                    Preline@HS
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="p-1">
+              <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
+                <svg class="flex-shrink-0 mt-0.5 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                Billing
+              </a>
+              <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
+                <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                Settings
+              </a>
+              <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
+                <svg class="flex-shrink-0 mt-0.5 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                My account
+              </a>
+            </div>
+            <div class="px-4 py-3.5 border-y border-gray-200">
+              <!-- Switch/Toggle -->
+              <div class="flex justify-between items-center">
+                <label for="hs-pro-dnaddm" class="text-sm text-gray-800">Dark mode</label>
+                <div class="relative inline-block">
+                  <input data-hs-theme-switch type="checkbox" id="hs-pro-dnaddm" class="relative w-11 h-6 p-px bg-gray-100 border-transparent text-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:ring-blue-600 disabled:opacity-50 disabled:pointer-events-none checked:bg-none checked:text-blue-600 checked:border-blue-600 focus:checked:border-blue-600
 
                             before:inline-block before:size-5 before:bg-white checked:before:bg-white before:translate-x-0 checked:before:translate-x-full before:rounded-full before:shadow before:transform before:ring-0 before:transition before:ease-in-out before:duration-200">
+                </div>
               </div>
+              <!-- End Switch/Toggle -->
             </div>
-            <!-- End Switch/Toggle -->
-          </div>
-          <div class="p-1">
-            <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
-              Customization
-              <div class="ms-auto">
+            <div class="p-1">
+              <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
+                Customization
+                <div class="ms-auto">
                             <span class="ms-auto inline-flex items-center gap-1.5 py-px px-1.5 rounded text-[10px] leading-4 font-medium bg-gray-100 text-gray-800">
                               New
                             </span>
-              </div>
-            </a>
-            <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
-              Manage team
-            </a>
-            <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
-              Sign out
-            </a>
+                </div>
+              </a>
+              <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
+                Manage team
+              </a>
+              <a class="flex items-center gap-x-3 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" href="#">
+                Sign out
+              </a>
+            </div>
+            <div class="p-1 border-t border-gray-200">
+              <button type="button" class="flex mt-0.5 gap-x-3 py-2 px-3 w-full rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" data-hs-overlay="#hs-pro-dasadam">
+                <svg class="flex-shrink-0 size-4 mt-0.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                Add team account
+              </button>
+            </div>
           </div>
-          <div class="p-1 border-t border-gray-200">
-            <button type="button" class="flex mt-0.5 gap-x-3 py-2 px-3 w-full rounded-lg text-sm text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100" data-hs-overlay="#hs-pro-dasadam">
-              <svg class="flex-shrink-0 size-4 mt-0.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
-              Add team account
-            </button>
-          </div>
+          <!-- End Account Dropdown -->
         </div>
         <!-- End Account Dropdown -->
       </div>
-      <!-- End Account Dropdown -->
-    </div>
 
-    <!-- Nav Links -->
-    <div class="md:order-2 basis-full grow md:basis-auto md:ms-5">
-      <!-- Collapse -->
-      <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 md:block">
-        <div class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
-          <div class="md:flex md:items-center md:gap-x-2 pt-2 md:pt-0">
-            <!-- Dropdown Link -->
-            <div class="hs-dropdown md:inline-block [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] border-t border-dashed border-gray-200 first:border-t-0 py-1 first:pt-0 last:pb-0 md:border-0 md:py-0">
-              <!-- Link Button -->
-              <button id="hs-pro-dnlfwd" type="button" class="hs-dropdown-toggle py-2 px-3 lg:px-2.5 lg:px-2 w-full lg:w-auto flex items-center text-sm text-start lg:font-medium text-gray-500 lg:text-gray-800 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100 lg:">
-                Новости
-                <svg class="ms-auto md:ms-2 flex-shrink-0 size-4 text-gray-400 md:text-gray-600 md:" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-              </button>
-              <!-- End Link Button -->
+      <!-- Nav Links -->
+      <div class="md:order-2 basis-full grow md:basis-auto md:ms-5">
+        <!-- Collapse -->
+        <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 md:block">
+          <div class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
+            <div class="md:flex md:items-center md:gap-x-2 pt-2 md:pt-0">
+              <!-- Dropdown Link -->
+              <div class="hs-dropdown md:inline-block [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] border-t border-dashed border-gray-200 first:border-t-0 py-1 first:pt-0 last:pb-0 md:border-0 md:py-0">
+                <!-- Link Button -->
+                <button id="hs-pro-dnlfwd" type="button" class="hs-dropdown-toggle py-2 px-3 lg:px-2.5 lg:px-2 w-full lg:w-auto flex items-center text-sm text-start lg:font-medium text-gray-500 lg:text-gray-800 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100 lg:">
+                  Новости
+                  <svg class="ms-auto md:ms-2 flex-shrink-0 size-4 text-gray-400 md:text-gray-600 md:" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </button>
+                <!-- End Link Button -->
 
-              <!-- Dropdown Menu -->
-              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full start-0 min-w-60 bg-white md:shadow-xl shadow-gray-200 md:py-4 lg:px-4 before:absolute before:-top-3 before:start-0 before:w-full before:h-5" aria-labelledby="hs-pro-dnlfwd">
-                <div class="max-w-[85rem] w-full mx-auto sm:px-4 2lg:px-8">
-                  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4">
-                    <div class="flex flex-col">
-                      <!-- Link -->
-                      <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                        <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                        <div class="grow">
-                          <p class="text-[15px] font-medium text-gray-800">
-                            Support Docs
-                          </p>
-                          <p class="mt-1 text-sm text-gray-500">
-                            Explore advice and explanations for all of Preline's features.
-                          </p>
-                        </div>
-                      </a>
-                      <!-- End Link -->
+                <!-- Dropdown Menu -->
+                <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full start-0 min-w-60 bg-white md:shadow-xl shadow-gray-200 md:py-4 lg:px-4 before:absolute before:-top-3 before:start-0 before:w-full before:h-5" aria-labelledby="hs-pro-dnlfwd">
+                  <div class="max-w-[85rem] w-full mx-auto sm:px-4 2lg:px-8">
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4">
+                      <div class="flex flex-col">
+                        <!-- Link -->
+                        <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                          <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                          <div class="grow">
+                            <p class="text-[15px] font-medium text-gray-800">
+                              Support Docs
+                            </p>
+                            <p class="mt-1 text-sm text-gray-500">
+                              Explore advice and explanations for all of Preline's features.
+                            </p>
+                          </div>
+                        </a>
+                        <!-- End Link -->
 
-                      <!-- Link -->
-                      <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                        <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
-                        <div class="grow">
-                          <p class="text-[15px] font-medium text-gray-800">
-                            Integrations
-                          </p>
-                          <p class="mt-1 text-sm text-gray-500">
-                            Discover the huge range of tools that Preline integrates with.
-                          </p>
-                        </div>
-                      </a>
-                      <!-- End Link -->
+                        <!-- Link -->
+                        <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                          <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
+                          <div class="grow">
+                            <p class="text-[15px] font-medium text-gray-800">
+                              Integrations
+                            </p>
+                            <p class="mt-1 text-sm text-gray-500">
+                              Discover the huge range of tools that Preline integrates with.
+                            </p>
+                          </div>
+                        </a>
+                        <!-- End Link -->
 
-                      <!-- Link -->
-                      <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                        <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 11 2-2-2-2"/><path d="M11 13h4"/><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/></svg>
-                        <div class="grow">
-                          <p class="text-[15px] font-medium text-gray-800">
-                            API Reference
-                          </p>
-                          <p class="mt-1 text-sm text-gray-500">
-                            Build custom integrations with our first-class API.
-                          </p>
-                        </div>
-                      </a>
-                      <!-- End Link -->
-                    </div>
-                    <!-- End Col -->
+                        <!-- Link -->
+                        <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                          <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 11 2-2-2-2"/><path d="M11 13h4"/><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/></svg>
+                          <div class="grow">
+                            <p class="text-[15px] font-medium text-gray-800">
+                              API Reference
+                            </p>
+                            <p class="mt-1 text-sm text-gray-500">
+                              Build custom integrations with our first-class API.
+                            </p>
+                          </div>
+                        </a>
+                        <!-- End Link -->
+                      </div>
+                      <!-- End Col -->
 
-                    <div class="flex flex-col">
-                      <!-- Link -->
-                      <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                        <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
-                        <div class="grow">
-                          <p class="text-[15px] font-medium text-gray-800">
-                            Help Center
-                          </p>
-                          <p class="mt-1 text-sm text-gray-500">
-                            Learn how to install, set up, and use Preline.
-                          </p>
-                        </div>
-                      </a>
-                      <!-- End Link -->
+                      <div class="flex flex-col">
+                        <!-- Link -->
+                        <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                          <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+                          <div class="grow">
+                            <p class="text-[15px] font-medium text-gray-800">
+                              Help Center
+                            </p>
+                            <p class="mt-1 text-sm text-gray-500">
+                              Learn how to install, set up, and use Preline.
+                            </p>
+                          </div>
+                        </a>
+                        <!-- End Link -->
 
-                      <!-- Link -->
-                      <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                        <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
-                        <div class="grow">
-                          <p class="text-[15px] font-medium text-gray-800">
-                            Developer Hub
-                          </p>
-                          <p class="mt-1 text-sm text-gray-500">
-                            Learn how to integrate or build on top of Preline.
-                          </p>
-                        </div>
-                      </a>
-                      <!-- End Link -->
+                        <!-- Link -->
+                        <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                          <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
+                          <div class="grow">
+                            <p class="text-[15px] font-medium text-gray-800">
+                              Developer Hub
+                            </p>
+                            <p class="mt-1 text-sm text-gray-500">
+                              Learn how to integrate or build on top of Preline.
+                            </p>
+                          </div>
+                        </a>
+                        <!-- End Link -->
 
-                      <!-- Link -->
-                      <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                        <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                        <div class="grow">
-                          <p class="text-[15px] font-medium text-gray-800">
-                            Community Forum
-                          </p>
-                          <p class="mt-1 text-sm text-gray-500">
-                            Learn, share, and connect with other Preline users.
-                          </p>
-                        </div>
-                      </a>
-                      <!-- End Link -->
-                    </div>
-                    <!-- End Col -->
+                        <!-- Link -->
+                        <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                          <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                          <div class="grow">
+                            <p class="text-[15px] font-medium text-gray-800">
+                              Community Forum
+                            </p>
+                            <p class="mt-1 text-sm text-gray-500">
+                              Learn, share, and connect with other Preline users.
+                            </p>
+                          </div>
+                        </a>
+                        <!-- End Link -->
+                      </div>
+                      <!-- End Col -->
 
-                    <div class="sm:col-span-2 lg:col-span-1 flex flex-col mt-3 lg:mt-0">
+                      <div class="sm:col-span-2 lg:col-span-1 flex flex-col mt-3 lg:mt-0">
                                   <span class="px-3 text-xs font-semibold uppercase tracking-wide text-gray-800">
                                     Customer stories
                                   </span>
 
-                      <!-- Link -->
-                      <a class="group mt-2 p-3 flex gap-x-5 items-center rounded-xl hover:bg-gray-100 focus:outline-none focus:bg-gray-100" href="#">
-                        <img class="size-32 rounded-lg" src="https://images.unsplash.com/photo-1648737967328-690548aec14f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=320&q=80" alt="Image Description">
-                        <div class="grow">
-                          <p class="text-sm text-gray-800">
-                            Preline Projects has proved to be most efficient cloud based project tracking and bug tracking tool.
-                          </p>
-                          <p class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium">
-                            Learn more
-                            <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                          </p>
-                        </div>
-                      </a>
-                      <!-- End Link -->
+                        <!-- Link -->
+                        <a class="group mt-2 p-3 flex gap-x-5 items-center rounded-xl hover:bg-gray-100 focus:outline-none focus:bg-gray-100" href="#">
+                          <img class="size-32 rounded-lg" src="https://images.unsplash.com/photo-1648737967328-690548aec14f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=320&q=80" alt="Image Description">
+                          <div class="grow">
+                            <p class="text-sm text-gray-800">
+                              Preline Projects has proved to be most efficient cloud based project tracking and bug tracking tool.
+                            </p>
+                            <p class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium">
+                              Learn more
+                              <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                            </p>
+                          </div>
+                        </a>
+                        <!-- End Link -->
+                      </div>
+                      <!-- End Col -->
                     </div>
-                    <!-- End Col -->
                   </div>
                 </div>
+                <!-- End Dropdown Menu -->
               </div>
-              <!-- End Dropdown Menu -->
-            </div>
-            <!-- End Dropdown Link -->
+              <!-- End Dropdown Link -->
 
-            <!-- Dropdown Link -->
-            <div class="hs-dropdown md:inline-block [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] border-t border-dashed border-gray-200 first:border-t-0 py-1 first:pt-0 last:pb-0 md:border-0 md:py-0">
-              <!-- Link Button -->
-              <button id="hs-pro-dnlcd" type="button" class="hs-dropdown-toggle py-2 px-3 lg:px-2.5 lg:px-2 w-full lg:w-auto flex items-center text-sm text-start lg:font-medium text-gray-500 lg:text-gray-800 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100 lg:">
-                Есть идея
-                <svg class="ms-auto md:ms-2 flex-shrink-0 size-4 text-gray-400 md:text-gray-600 md:" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-              </button>
-              <!-- End Link Button -->
+              <!-- Dropdown Link -->
+              <div class="hs-dropdown md:inline-block [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] border-t border-dashed border-gray-200 first:border-t-0 py-1 first:pt-0 last:pb-0 md:border-0 md:py-0">
+                <!-- Link Button -->
+                <button id="hs-pro-dnlcd" type="button" class="hs-dropdown-toggle py-2 px-3 lg:px-2.5 lg:px-2 w-full lg:w-auto flex items-center text-sm text-start lg:font-medium text-gray-500 lg:text-gray-800 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100 lg:">
+                  Есть идея
+                  <svg class="ms-auto md:ms-2 flex-shrink-0 size-4 text-gray-400 md:text-gray-600 md:" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </button>
+                <!-- End Link Button -->
 
-              <!-- Dropdown Menu -->
-              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full lg:w-[750px] hidden z-10 top-full start-0 lg:start-auto min-w-60 bg-white md:shadow-xl shadow-gray-200 before:absolute before:-top-3 before:start-0 before:w-full before:h-5" aria-labelledby="hs-pro-dnlcd">
-                <div class="grid lg:grid-cols-10 gap-4 lg:gap-0">
-                  <div class="lg:col-span-6 pt-2 md:p-3">
-                    <!-- Grid -->
-                    <div class="grid sm:grid-cols-2 gap-2 sm:gap-5 lg:gap-5">
-                      <div class="flex flex-col space-y-3">
-                        <div class="space-y-1">
+                <!-- Dropdown Menu -->
+                <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full lg:w-[750px] hidden z-10 top-full start-0 lg:start-auto min-w-60 bg-white md:shadow-xl shadow-gray-200 before:absolute before:-top-3 before:start-0 before:w-full before:h-5" aria-labelledby="hs-pro-dnlcd">
+                  <div class="grid lg:grid-cols-10 gap-4 lg:gap-0">
+                    <div class="lg:col-span-6 pt-2 md:p-3">
+                      <!-- Grid -->
+                      <div class="grid sm:grid-cols-2 gap-2 sm:gap-5 lg:gap-5">
+                        <div class="flex flex-col space-y-3">
+                          <div class="space-y-1">
                                       <span class="mb-2 ps-3 text-xs font-semibold uppercase text-gray-800">
                                         About us
                                       </span>
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Support Docs
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Support Docs
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Integrations
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Integrations
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Guides
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Guides
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 11 2-2-2-2"/><path d="M11 13h4"/><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                API Reference
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 11 2-2-2-2"/><path d="M11 13h4"/><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  API Reference
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                API Status
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  API Status
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
+                          </div>
                         </div>
-                      </div>
-                      <!-- End Col -->
+                        <!-- End Col -->
 
-                      <div class="flex flex-col space-y-3">
-                        <div class="space-y-1">
+                        <div class="flex flex-col space-y-3">
+                          <div class="space-y-1">
                                       <span class="mb-2 ps-3 text-xs font-semibold uppercase text-gray-800">
                                         Support
                                       </span>
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Help Center
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Help Center
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Developer Hub
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Developer Hub
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Community Forum
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
-                        </div>
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Community Forum
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
+                          </div>
 
-                        <div class="space-y-1">
+                          <div class="space-y-1">
                                       <span class="mb-2 ps-3 text-xs font-semibold uppercase text-gray-800">
                                         Partners
                                       </span>
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-6"/><polyline points="14 2 14 8 20 8"/><path d="M5 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M7 16.5 8 22l-3-1-3 1 1-5.5"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Become a Partner
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-6"/><polyline points="14 2 14 8 20 8"/><path d="M5 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M7 16.5 8 22l-3-1-3 1 1-5.5"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Become a Partner
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
 
-                          <!-- Link -->
-                          <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5 4 4"/><path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13"/><path d="m8 6 2-2"/><path d="m2 22 5.5-1.5L21.17 6.83a2.82 2.82 0 0 0-4-4L3.5 16.5Z"/><path d="m18 16 2-2"/><path d="m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17"/></svg>
-                            <div class="grow">
-                              <p class="text-sm text-gray-800">
-                                Build on Preline
-                              </p>
-                            </div>
-                          </a>
-                          <!-- End Link -->
+                            <!-- Link -->
+                            <a class="group py-2 px-3 flex items-center gap-x-3 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5 4 4"/><path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13"/><path d="m8 6 2-2"/><path d="m2 22 5.5-1.5L21.17 6.83a2.82 2.82 0 0 0-4-4L3.5 16.5Z"/><path d="m18 16 2-2"/><path d="m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17"/></svg>
+                              <div class="grow">
+                                <p class="text-sm text-gray-800">
+                                  Build on Preline
+                                </p>
+                              </div>
+                            </a>
+                            <!-- End Link -->
+                          </div>
                         </div>
+                        <!-- End Col -->
                       </div>
-                      <!-- End Col -->
+                      <!-- End Grid -->
                     </div>
-                    <!-- End Grid -->
-                  </div>
 
-                  <div class="col-span-full lg:col-span-4 pt-2 md:pt-0">
-                    <div class="flex flex-col lg:bg-gray-50 md:p-4 lg:p-6 lg:">
+                    <div class="col-span-full lg:col-span-4 pt-2 md:pt-0">
+                      <div class="flex flex-col lg:bg-gray-50 md:p-4 lg:p-6 lg:">
                                   <span class="px-3 lg:px-0 text-xs font-semibold uppercase tracking-wide text-gray-800">
                                     Customer stories
                                   </span>
 
-                      <a class="mt-3 group flex items-center lg:grid gap-x-5 hover:bg-gray-100 lg:hover:bg-transparent rounded-xl p-3 lg:p-0 focus:outline-none lg:" href="#">
-                        <div class="flex-shrink-0 lg:aspect-w-16 lg:aspect-h-9">
-                          <img class="size-32 lg:w-full lg:h-full lg:object-cover rounded-lg" src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="Image Description">
-                        </div>
-                        <div class="grow lg:grow-0 mt-2">
-                          <p class="text-sm text-gray-800">
-                            Preline Projects has proved to be most efficient cloud based project tracking and bug tracking tool.
-                          </p>
-                          <p class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
-                            Learn more
-                            <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-0.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                          </p>
-                        </div>
-                      </a>
+                        <a class="mt-3 group flex items-center lg:grid gap-x-5 hover:bg-gray-100 lg:hover:bg-transparent rounded-xl p-3 lg:p-0 focus:outline-none lg:" href="#">
+                          <div class="flex-shrink-0 lg:aspect-w-16 lg:aspect-h-9">
+                            <img class="size-32 lg:w-full lg:h-full lg:object-cover rounded-lg" src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="Image Description">
+                          </div>
+                          <div class="grow lg:grow-0 mt-2">
+                            <p class="text-sm text-gray-800">
+                              Preline Projects has proved to be most efficient cloud based project tracking and bug tracking tool.
+                            </p>
+                            <p class="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
+                              Learn more
+                              <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-0.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
                     </div>
+                    <!-- End Col -->
                   </div>
-                  <!-- End Col -->
                 </div>
+                <!-- End Dropdown Menu -->
               </div>
-              <!-- End Dropdown Menu -->
-            </div>
-            <!-- End Dropdown Link -->
+              <!-- End Dropdown Link -->
 
-            <!-- Dropdown Link -->
-            <div class="hs-dropdown md:inline-block [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] border-t border-dashed border-gray-200 first:border-t-0 py-1 first:pt-0 last:pb-0 md:border-0 md:py-0">
-              <!-- Link Button -->
-              <button id="hs-pro-dnldrd" type="button" class="hs-dropdown-toggle py-2 px-3 lg:px-2.5 lg:px-2 w-full lg:w-auto flex items-center text-sm text-start lg:font-medium text-gray-500 lg:text-gray-800 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100 lg:">
-                Пригласи друга
-                <svg class="ms-auto md:ms-2 flex-shrink-0 size-4 text-gray-400 md:text-gray-600 md:" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-              </button>
-              <!-- End Link Button -->
+              <!-- Dropdown Link -->
+              <div class="hs-dropdown md:inline-block [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] border-t border-dashed border-gray-200 first:border-t-0 py-1 first:pt-0 last:pb-0 md:border-0 md:py-0">
+                <!-- Link Button -->
+                <button id="hs-pro-dnldrd" type="button" class="hs-dropdown-toggle py-2 px-3 lg:px-2.5 lg:px-2 w-full lg:w-auto flex items-center text-sm text-start lg:font-medium text-gray-500 lg:text-gray-800 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-100 lg:">
+                  Пригласи друга
+                  <svg class="ms-auto md:ms-2 flex-shrink-0 size-4 text-gray-400 md:text-gray-600 md:" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </button>
+                <!-- End Link Button -->
 
-              <!-- Dropdown Menu -->
-              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full md:w-80 bg-white md:shadow-xl shadow-gray-200 sm:p-2 before:absolute before:-top-3 before:start-0 before:w-full before:h-5" aria-labelledby="hs-pro-dnldrd">
-                <!-- Link -->
-                <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                  <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="2" y1="12" y2="12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/><line x1="6" x2="6.01" y1="16" y2="16"/><line x1="10" x2="10.01" y1="16" y2="16"/></svg>
-                  <div class="grow">
-                    <p class="text-[15px] font-medium text-gray-800">
-                      Data
-                    </p>
-                    <p class="mt-1 text-sm text-gray-500">
-                      How you get the most accurate and up-to-date data
-                    </p>
-                  </div>
-                </a>
-                <!-- End Link -->
+                <!-- Dropdown Menu -->
+                <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full md:w-80 bg-white md:shadow-xl shadow-gray-200 sm:p-2 before:absolute before:-top-3 before:start-0 before:w-full before:h-5" aria-labelledby="hs-pro-dnldrd">
+                  <!-- Link -->
+                  <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                    <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="2" y1="12" y2="12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/><line x1="6" x2="6.01" y1="16" y2="16"/><line x1="10" x2="10.01" y1="16" y2="16"/></svg>
+                    <div class="grow">
+                      <p class="text-[15px] font-medium text-gray-800">
+                        Data
+                      </p>
+                      <p class="mt-1 text-sm text-gray-500">
+                        How you get the most accurate and up-to-date data
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Link -->
 
-                <!-- Link -->
-                <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                  <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                  <div class="grow">
-                    <p class="text-[15px] font-medium text-gray-800">
-                      Team <span class="inline ms-1 text-xs bg-blue-600 text-white py-1 px-2 rounded-full">We're hiring</span>
-                    </p>
-                    <p class="mt-1 text-sm text-gray-500">
-                      Meet the people building products to help your business grow
-                    </p>
-                  </div>
-                </a>
-                <!-- End Link -->
+                  <!-- Link -->
+                  <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                    <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    <div class="grow">
+                      <p class="text-[15px] font-medium text-gray-800">
+                        Team <span class="inline ms-1 text-xs bg-blue-600 text-white py-1 px-2 rounded-full">We're hiring</span>
+                      </p>
+                      <p class="mt-1 text-sm text-gray-500">
+                        Meet the people building products to help your business grow
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Link -->
 
-                <!-- Link -->
-                <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
-                  <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
-                  <div class="grow">
-                    <p class="text-[15px] font-medium text-gray-800">
-                      Blog
-                    </p>
-                    <p class="mt-1 text-sm text-gray-500">
-                      The latest news, feature releases, and how to grow with data
-                    </p>
-                  </div>
-                </a>
-                <!-- End Link -->
+                  <!-- Link -->
+                  <a class="group p-3 flex gap-x-3.5 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100" href="#">
+                    <svg class="flex-shrink-0 size-5 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+                    <div class="grow">
+                      <p class="text-[15px] font-medium text-gray-800">
+                        Blog
+                      </p>
+                      <p class="mt-1 text-sm text-gray-500">
+                        The latest news, feature releases, and how to grow with data
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Link -->
+                </div>
+                <!-- End Dropdown Menu -->
               </div>
-              <!-- End Dropdown Menu -->
+              <!-- End Dropdown Link -->
             </div>
-            <!-- End Dropdown Link -->
           </div>
         </div>
+        <!-- End Collapse -->
       </div>
-      <!-- End Collapse -->
-    </div>
-    <!-- End Nav Links -->
+      <!-- End Nav Links -->
     </div>
   </header>
   <!-- ========== END HEADER ========== -->
@@ -1683,3 +1683,5 @@
   <!-- End Add Team Account Modal -->
 
 </template>
+<script setup lang="ts">
+</script>
