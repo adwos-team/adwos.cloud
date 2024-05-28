@@ -429,36 +429,6 @@
                         </div>
                       </div>
                     </section>
-                    <section class="flex flex-col px-5 py-6 mt-4 w-full rounded-lg bg-slate-800">
-                      <div class="flex gap-5 justify-between px-px">
-                        <div class="flex flex-col text-indigo-500 leading-[129%]">
-                          <div class="text-base leading-5 text-white">Теги</div>
-                          <div class="mt-7">Облачные серверы</div>
-                          <div class="mt-6">Образы</div>
-                          <div class="mt-6">Оплата услуг</div>
-                          <div class="mt-6">Панель управления</div>
-                          <div class="mt-6">Домены</div>
-                          <div class="mt-6">Безопасность</div>
-                          <div class="mt-7">Базы данных</div>
-                          <div class="mt-7">Сеть</div>
-                          <div class="mt-7">Другое</div>
-                          <div class="mt-6">Хранилище S3</div>
-                        </div>
-                        <div class="flex flex-col self-end mt-10 whitespace-nowrap leading-[171%] text-slate-400 max-md:hidden">
-                          <div>138</div>
-                          <div class="mt-7 leading-[176%]">127</div>
-                          <div class="mt-7">102</div>
-                          <div class="mt-7 leading-[176%]">91</div>
-                          <div class="mt-7">85</div>
-                          <div class="self-start mt-7 ml-2.5 text-sm leading-6">71</div>
-                          <div class="mt-7">69</div>
-                          <div class="mt-7">68</div>
-                          <div class="mt-7">62</div>
-                          <div class="mt-7">56</div>
-                        </div>
-                      </div>
-                      <button class="justify-center px-8 py-4 mt-7 text-center text-white rounded-lg border border-gray-700 border-solid leading-[171%] max-md:px-5">Показать еще 10 тегов</button>
-                    </section>
                   </div>
                 </aside>
               </div>
