@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
-    "nuxt-schema-org"
+    "nuxt-schema-org",
+    "@nuxtjs/seo"
   ]
 })

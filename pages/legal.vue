@@ -1,66 +1,177 @@
 <template>
-  <main class="flex justify-center items-center px-16 py-20 bg-white max-md:px-5">
-    <section class="flex flex-col justify-center pt-2 mt-10 max-w-full w-[1200px]">
-      <header class="flex flex-col max-md:max-w-full">
-        <h1 class="text-5xl tracking-tighter leading-10 text-black max-md:max-w-full">Положения и условия</h1>
-      </header>
+  <div class="md:max-w-screen-sm text-center px-4 sm:px-6 lg:px-8 pt-24 pb-6 mx-auto">
+    <h1 class="mb-2 text-2xl font-bold md:text-4xl dark:text-white">Положения и условия</h1>
+    <p class="text-gray-700 dark:text-neutral-400">Последнее обновление: 12 июня 2024 г.</p>
+  </div>
 
+<div class="flex justify-center items-center px-16  bg-white max-md:px-5">
+  <section class="flex flex-col justify-center pt-2 mt-10 max-w-full w-[1200px]">
+    <!-- Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-3 xl:gap-5">
+      <!-- Card -->
+      <div class="p-4 group relative flex flex-col border border-gray-200 bg-white hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700/50 dark:hover:border-neutral-700 rounded-lg">
+        <div class="h-full flex gap-x-5">
+          <div class="flex-shrink-0 size-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
 
-      <section class="mt-16 max-md:mt-10 max-md:max-w-full">
-        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
-          <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-stone-50 rounded-xl">
-            <div class="flex flex-col grow justify-center py-5 pr-12 pl-5 w-full text-base text-black rounded-xl bg-neutral-100 bg-opacity-0 max-md:pr-5 max-md:mt-6">
-              <img loading="lazy" src="/images/svg/file.svg" class="w-5 aspect-square" alt="Icon for Согласие на использование и обработку персональных данных" />
-              <h2 class="mt-4">Согласие на использование и обработку персональных данных</h2>
-              <a href="#" class="mt-2.5 text-sm text-black text-opacity-50">Перейти</a>
+          </div>
+
+          <div class="grow">
+            <div class="h-full flex flex-col">
+              <div>
+                <h3 class="inline-flex items-center gap-x-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Согласие на использование и обработку персональных данных
+                </h3>
+              </div>
+
+              <div class="pt-1 mt-auto">
+                <a href="#" class="mt-2.5 text-sm text-black text-opacity-50">Перейти</a>
+              </div>
             </div>
-          </article>
-          <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-stone-50 rounded-xl">
-            <div class="flex flex-col grow justify-center items-start py-6 pr-20 pl-5 w-full rounded-xl bg-black bg-opacity-0 max-md:pr-5 max-md:mt-6">
-              <img loading="lazy" src="/images/svg/file.svg" class="w-5 aspect-square" alt="Icon for Использование файлов Cookie" />
-              <h2 class="mt-4 text-base text-black">Использование файлов Cookie</h2>
-              <a href="#" class="mt-7 text-sm text-black text-opacity-50">Перейти</a>
-            </div>
-          </article>
-          <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-stone-50 rounded-xl">
-            <div class="flex flex-col grow justify-center items-start py-6 pr-20 pl-5 w-full rounded-xl bg-black bg-opacity-0 max-md:pr-5 max-md:mt-6">
-              <img loading="lazy" src="/images/svg/file.svg" class="w-5 aspect-square" alt="Icon for Пользовательское соглашение" />
-              <h2 class="mt-4 text-base text-black">Пользовательское соглашение</h2>
-              <a href="#" class="mt-7 text-sm text-black text-opacity-50">Перейти</a>
-            </div>
-          </article>
+          </div>
         </div>
-      </section>
-      <section class="mt-6 max-md:max-w-full">
-        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
-          <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-stone-50 rounded-xl">
-            <div class="flex flex-col grow justify-center items-start py-5 pr-20 pl-5 w-full rounded-xl bg-black bg-opacity-0 max-md:pr-5 max-md:mt-6">
-              <img loading="lazy" src="/images/svg/file.svg" class="w-5 aspect-square" alt="Icon for Договор оферты" />
-              <h2 class="mt-4 text-base text-black">Договор оферты</h2>
-              <a href="#" class="mt-4 text-sm text-black text-opacity-50">Перейти</a>
+
+        <a class="after:absolute after:inset-0 after:z-10" href="#"></a>
+      </div>
+      <!-- End Card -->
+      <!-- Card -->
+      <div class="p-4 group relative flex flex-col border border-gray-200 bg-white hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700/50 dark:hover:border-neutral-700 rounded-lg">
+        <div class="h-full flex gap-x-5">
+          <div class="flex-shrink-0 size-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+
+          </div>
+
+          <div class="grow">
+            <div class="h-full flex flex-col">
+              <div>
+                <h3 class="inline-flex items-center gap-x-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Использование файлов Cookie
+                </h3>
+              </div>
+
+              <div class="pt-1 mt-auto">
+                <a href="#" class="mt-2.5 text-sm text-black text-opacity-50">Перейти</a>
+              </div>
             </div>
-          </article>
-          <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-stone-50 rounded-xl">
-            <div class="flex flex-col grow justify-center items-start py-5 pr-14 pl-5 w-full rounded-xl bg-black bg-opacity-0 max-md:pr-5 max-md:mt-6">
-              <img loading="lazy" src="/images/svg/file.svg" class="w-5 aspect-square" alt="Icon for Условия программы бета-тестирования" />
-              <h2 class="mt-4 text-base text-black">Условия программы бета-тестирования</h2>
-              <a href="#" class="mt-4 text-sm text-black text-opacity-50">Перейти</a>
-            </div>
-          </article>
-          <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-stone-50 rounded-xl">
-            <div class="flex flex-col grow justify-center items-start py-5 pr-20 pl-5 w-full rounded-xl bg-black bg-opacity-0 max-md:pr-5 max-md:mt-6">
-              <img loading="lazy" src="/images/svg/file.svg" class="w-5 aspect-square" alt="Icon for Условия акции «Приведи коллегу»" />
-              <h2 class="mt-4 text-base text-black">Условия акции «Приведи коллегу»</h2>
-              <a href="#" class="mt-4 text-sm text-black text-opacity-50">Перейти</a>
-            </div>
-          </article>
+          </div>
         </div>
-      </section>
 
-    </section>
+        <a class="after:absolute after:inset-0 after:z-10" href="#"></a>
+      </div>
+      <!-- End Card -->
+      <!-- Card -->
+      <div class="p-4 group relative flex flex-col border border-gray-200 bg-white hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700/50 dark:hover:border-neutral-700 rounded-lg">
+        <div class="h-full flex gap-x-5">
+          <div class="flex-shrink-0 size-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+
+          </div>
+
+          <div class="grow">
+            <div class="h-full flex flex-col">
+              <div>
+                <h3 class="inline-flex items-center gap-x-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Пользовательское соглашение
+                </h3>
+              </div>
+
+              <div class="pt-1 mt-auto">
+                <a href="#" class="mt-2.5 text-sm text-black text-opacity-50">Перейти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="after:absolute after:inset-0 after:z-10" href="#"></a>
+      </div>
+      <!-- End Card -->
+      <!-- Card -->
+      <div class="p-4 group relative flex flex-col border border-gray-200 bg-white hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700/50 dark:hover:border-neutral-700 rounded-lg">
+        <div class="h-full flex gap-x-5">
+          <div class="flex-shrink-0 size-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+
+          </div>
+
+          <div class="grow">
+            <div class="h-full flex flex-col">
+              <div>
+                <h3 class="inline-flex items-center gap-x-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Договор оферты
+                </h3>
+              </div>
+
+              <div class="pt-1 mt-auto">
+                <a href="#" class="mt-2.5 text-sm text-black text-opacity-50">Перейти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="after:absolute after:inset-0 after:z-10" href="#"></a>
+      </div>
+      <!-- End Card -->
+      <!-- Card -->
+      <div class="p-4 group relative flex flex-col border border-gray-200 bg-white hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700/50 dark:hover:border-neutral-700 rounded-lg">
+        <div class="h-full flex gap-x-5">
+          <div class="flex-shrink-0 size-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+
+          </div>
+
+          <div class="grow">
+            <div class="h-full flex flex-col">
+              <div>
+                <h3 class="inline-flex items-center gap-x-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Условия программы бета-тестирования
+                </h3>
+              </div>
+
+              <div class="pt-1 mt-auto">
+                <a href="#" class="mt-2.5 text-sm text-black text-opacity-50">Перейти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="after:absolute after:inset-0 after:z-10" href="#"></a>
+      </div>
+      <!-- End Card -->
+      <!-- Card -->
+      <div class="p-4 group relative flex flex-col border border-gray-200 bg-white hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700/50 dark:hover:border-neutral-700 rounded-lg">
+        <div class="h-full flex gap-x-5">
+          <div class="flex-shrink-0 size-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+
+          </div>
+
+          <div class="grow">
+            <div class="h-full flex flex-col">
+              <div>
+                <h3 class="inline-flex items-center gap-x-1 font-medium text-gray-800 dark:text-neutral-200">
+                  Условия акции «Приведи коллегу»
+                </h3>
+              </div>
+
+              <div class="pt-1 mt-auto">
+                <a href="#" class="mt-2.5 text-sm text-black text-opacity-50">Перейти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="after:absolute after:inset-0 after:z-10" href="#"></a>
+      </div>
+      <!-- End Card -->
 
 
-  </main>
+
+    </div>
+    <!-- End Grid -->
+  </section>
+
+</div>
 
 
 </template>
