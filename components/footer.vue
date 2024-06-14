@@ -8,7 +8,10 @@
     <!-- Grid -->
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
       <div class="col-span-full hidden lg:col-span-1 lg:block">
-        <a class="flex-none text-xl font-semibold dark:text-white" href="#" aria-label="Brand">Adwos CMS</a>
+        <a href="#" class="flex gap-1.5 whitespace-nowrap">
+          <img loading="lazy" src="/images/svg/logo-16x16.svg" alt="" class="shrink-0 w-4 aspect-square" />
+          <span class="my-auto">Adwos CMS</span>
+        </a>
         <p class="mt-3 text-xs sm:text-sm text-gray-600 dark:text-neutral-400">Общество с ограниченной ответственностью «Адвос»<br>ИНН 2311352224.</p>
       </div>
       <!-- End Col -->
