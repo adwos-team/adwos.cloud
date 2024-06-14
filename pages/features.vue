@@ -133,6 +133,9 @@
 
 
   <integrations />
+
+
+
 </template>
 <script setup lang="ts">
 import Integrations from "~/components/features/Integrations.vue";

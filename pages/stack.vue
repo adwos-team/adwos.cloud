@@ -1,10 +1,15 @@
+<template>
+  <titile_stack/>
+  <tabel_stack/>
+</template>
+
+
 <script setup lang="ts">
 
+import Titile_stack from "~/components/stack/titile_stack.vue";
+import Tabel_stack from "~/components/stack/tabel_stack.vue";
 </script>
 
-<template>
-  <h1>stack</h1>
-</template>
 
 <style scoped>
 
