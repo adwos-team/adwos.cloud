@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "Adwos CMS",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxtjs/seo": "^2.0.0-rc.10",
     "@vueuse/core": "^10.10.0",
+    "@vueuse/head": "^2.0.0",
     "clipboard": "^2.0.11",
     "lucide-vue-next": "^0.394.0",
     "nuxt": "^3.11.2",

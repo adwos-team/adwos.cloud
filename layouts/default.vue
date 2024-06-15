@@ -7,9 +7,8 @@
     <LicenseCheckModal />
     <button
         class="fixed bottom-5 right-5 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
-        data-hs-overlay="#license-check-modal"
-    >
-      Проверить ключ
+        data-hs-overlay="#license-check-modal">
+      Проверить лицензию
     </button>
   </div>
 </template>

@@ -1,7 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss", "@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-schema-org", "@nuxtjs/seo"],
+  modules: [
+    "@pinia/nuxt",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/robots",
+    "@nuxtjs/sitemap",
+    "nuxt-schema-org",
+    "@nuxtjs/seo"
+  ],
   tailwindcss: {
     // Добавьте ваши настройки TailwindCSS здесь, если необходимо
   },
@@ -19,7 +26,7 @@ export default defineNuxtConfig({
     ]
   },
   schemaOrg: {
-    canonicalHost: 'https://example.com',
+    canonicalHost: 'https://front.adwos.org',
   },
   seo: {
     title: 'Адвос: недвижимость, транспорт, работа, услуги, вещи',

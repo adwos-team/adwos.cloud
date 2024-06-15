@@ -44,7 +44,7 @@
 
         <div class="mt-3 grid space-y-3 text-sm">
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">База знаний Adwos</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Поддержка</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/support">Поддержка</NuxtLink></p>
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Ответы на вопросы</NuxtLink></p>
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="news">Новости</NuxtLink></p>
         </div>
