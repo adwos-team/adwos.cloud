@@ -1,20 +1,14 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@pinia/nuxt",
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/robots",
     "@nuxtjs/sitemap",
+    "nuxt-schema-org",
     "@nuxtjs/seo"
   ],
   tailwindcss: {
     // Add your TailwindCSS settings here, if necessary
-  },
-  robots: {
-    UserAgent: '*',
-    Disallow: '/admin',
-    Allow: '/'
   },
   sitemap: {
     hostname: 'https://adwos.org',
@@ -24,12 +18,15 @@ export default defineNuxtConfig({
       '/page2'
     ]
   },
+  schemaOrg: {
+    canonicalHost: 'https://adwos.org',
+  },
   seo: {
     title: 'Адвос: недвижимость, транспорт, работа, услуги, вещи',
     description: 'На Адвос вы можете недорого купить или выгодно продать авто с пробегом или новую машину, квартиру и другую недвижимость, а также новую или б/у одежду, мебель',
     openGraph: {
       type: 'website',
-      url: 'https://front.adwos.org',
+      url: 'https://adwos.org',
       title: 'Адвос: недвижимость, транспорт, работа, услуги, вещи',
       description: 'На Адвос вы можете недорого купить или выгодно продать авто с пробегом или новую машину, квартиру и другую недвижимость, а также новую или б/у одежду, мебель',
       image: '/path/to/logotest.jpeg',
@@ -68,7 +65,7 @@ export default defineNuxtConfig({
           innerHTML: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "url": "https://front.adwos.org",
+            "url": "https://adwos.org",
             "name": "Адвос: недвижимость, транспорт, работа, услуги, вещи",
             "description": "На Адвос вы можете недорого купить или выгодно продать авто с пробегом или новую машину, квартиру и другую недвижимость, а также новую или б/у одежду, мебель",
           })
@@ -82,9 +79,9 @@ export default defineNuxtConfig({
   hooks: {
     'render:errorMiddleware': (app) => {
       app.use((err, req, res, next) => {
-        res.statusCode = err.statusCode || 500
-        res.end(`Error: ${err.message}`)
-      })
+        res.statusCode = err.statusCode || 500;
+        res.end(`Error: ${err.message}`);
+      });
     }
   },
   router: {
