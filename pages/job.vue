@@ -15,14 +15,14 @@
           <div class="flex flex-col">
             <header class="text-base text-center text-black">Дизайнер сайтов</header>
             <p class="mt-2.5">Вакансия закрыта</p>
-            <a href="t.me/job_adwos_bot" class="self-center mt-2.5 text-center">Подробнее →</a>
+            <a href="#" class="self-center mt-2.5 text-center">Подробнее →</a>
           </div>
         </article>
         <article class="flex flex-1 grow shrink-0 justify-center items-center px-16 py-5 rounded-xl basis-0 bg-light-brown bg-opacity-100 w-fit max-md:px-5 max-md:max-w-full" tabindex="0">
           <div class="flex flex-col items-center">
             <header class="self-stretch text-base text-center text-black">Backend Development</header>
             <p class="mt-2.5">Вакансия закрыта</p>
-            <a href="t.me/job_adwos_bot" class="mt-2.5 text-center">Подробнее →</a>
+            <a href="#" class="mt-2.5 text-center">Подробнее →</a>
           </div>
         </article>
       </div>

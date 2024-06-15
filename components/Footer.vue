@@ -28,8 +28,8 @@
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">О системе</NuxtLink></p>
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Купить</NuxtLink></p>
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Рассрочка</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="features">Возможности</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="updates">Обновления</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Возможности</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Обновления</NuxtLink></p>
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Демо</NuxtLink></p>
         </div>
       </div>
@@ -40,9 +40,9 @@
 
         <div class="mt-3 grid space-y-3 text-sm">
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">База знаний Adwos</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/support">Поддержка</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Поддержка</NuxtLink></p>
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Ответы на вопросы</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="news">Новости</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Новости</NuxtLink></p>
         </div>
       </div>
       <!-- End Col -->
@@ -52,16 +52,16 @@
 
         <div class="mt-3 grid space-y-3 text-sm">
           <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Партнерская программа</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="legal">Положения и условия</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Положения и условия</NuxtLink></p>
         </div>
 
         <h4 class="mt-7 text-xs font-semibold text-gray-900 uppercase dark:text-neutral-100">Компания</h4>
 
         <div class="mt-3 grid space-y-3 text-sm">
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/brand">Бренд и логотипы</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/about">Реквизиты компании</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/job">Вакансии</NuxtLink></p>
-          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/stack">Технологии</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Бренд и логотипы</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Реквизиты компании</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Вакансии</NuxtLink></p>
+          <p><NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Технологии</NuxtLink></p>
         </div>
       </div>
       <!-- End Col -->
@@ -73,8 +73,8 @@
         <div class="flex items-center gap-x-3">
 
           <div class="space-x-4 text-sm ms-4">
-            <NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/legal/privacy">Пользовательское соглашение</NuxtLink>
-            <NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/legal/privacy">Обработка персональных данных</NuxtLink>
+            <NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Пользовательское соглашение</NuxtLink>
+            <NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Обработка персональных данных</NuxtLink>
             <a @click="openModal" class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 cursor-pointer">Статус системы</a>
           </div>
         </div>
