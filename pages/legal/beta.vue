@@ -12,7 +12,7 @@
       <br>
       <h3 class="text-left">Обязанности пользователя</h3>
       <ul>
-        <li>Принимая участие в программе бета-тестирования платформы Adwos CMS (<NuxtLink to="/legal/privacy-policy" class="text-blue-600">adwos.org/beta</NuxtLink>) <br> вы соглашаетесь со следующими условиями.</li>
+        <li>Принимая участие в программе бета-тестирования платформы Adwos CMS (<NuxtLink to="#" class="text-blue-600">adwos.org/beta</NuxtLink>) <br> вы соглашаетесь со следующими условиями.</li>
         <br>
         <li>1. Программа является добровольной.</li>
         <br>
