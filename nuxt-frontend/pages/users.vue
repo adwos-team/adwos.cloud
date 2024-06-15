@@ -14,7 +14,7 @@ const users = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/api/users');
+    const response = await fetch('localhost:81/api/users');
     const data = await response.json();
     users.value = data;
   } catch (error) {

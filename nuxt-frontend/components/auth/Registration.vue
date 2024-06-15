@@ -92,7 +92,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 
 const email = ref('');
 const fullName = ref('');
@@ -108,8 +108,38 @@ const togglePasswordVisibility = () => {
   isPasswordVisible.value = !isPasswordVisible.value;
 };
 
-const register = () => {
-  // Логика регистрации пользователя
+const register = async () => {
+  try {
+    const payload = {
+      companyName: companyName.value,
+      fullName: fullName.value,
+      email: email.value,
+      password: password.value,
+      password_confirmation: confirmPassword.value,
+      acceptTerms: acceptTerms.value,
+    };
+
+    console.log('Sending payload:', payload);
+
+    const response = await fetch('http://localhost:81/api/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      console.error('Error:', errorData.errors || errorData.message);
+      return;
+    }
+
+    const data = await response.json();
+    console.log('User registered successfully', data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
 };
 </script>
 
