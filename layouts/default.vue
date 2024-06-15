@@ -4,7 +4,7 @@
     <slot />
     <Footer />
     <Cookie />
-    <LicenseCheckModal />
+    <LicenseCheckModal :isVisible="isLicenseModalVisible" @close="closeLicenseModal" />
     <button
         class="fixed bottom-5 right-5 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
         @click="openLicenseModal"
@@ -21,11 +21,14 @@ import Footer from '@/components/Footer.vue';
 import Cookie from '@/components/Cookie.vue';
 import LicenseCheckModal from '@/components/LicenseCheckModal.vue';
 
+const isLicenseModalVisible = ref(false);
+
 const openLicenseModal = () => {
-  const modal = document.querySelector('#license-check-modal');
-  if (modal) {
-    modal.classList.add('is-active'); // Предполагается, что у вас есть класс is-active для отображения модального окна
-  }
+  isLicenseModalVisible.value = true;
+};
+
+const closeLicenseModal = () => {
+  isLicenseModalVisible.value = false;
 };
 </script>
 
