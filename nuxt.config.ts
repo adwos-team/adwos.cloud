@@ -19,7 +19,6 @@ export default defineNuxtConfig({
       colors: {
         'primary': '#ff3e00', // Пример добавления пользовательского цвета
       },
-      // Другие пользовательские расширения для TailwindCSS по мере необходимости
     }
   },
 
@@ -60,8 +59,8 @@ export default defineNuxtConfig({
 
   // Настройки head для HTML
   app: {
+    siteUrl: 'https://adwos.org', // Установка базового URL для всего приложения
     head: {
-      siteUrl: 'https://example.com',
       title: 'Adwos CMS | Система для запуска досок объявлений',
       htmlAttrs: {
         lang: 'ru',
