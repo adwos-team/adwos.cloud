@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Header />
+    <Header v-if="showHeaderFooter" />
     <slot />
-    <Footer />
+    <Footer v-if="showHeaderFooter" />
     <Cookie />
     <LicenseCheckModal :isVisible="isLicenseModalVisible" @close="closeLicenseModal" />
     <button
@@ -15,7 +15,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
+import { useRoute } from 'vue-router';
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Cookie from '@/components/Cookie.vue';
@@ -30,6 +31,14 @@ const openLicenseModal = () => {
 const closeLicenseModal = () => {
   isLicenseModalVisible.value = false;
 };
+
+// Определяем текущий маршрут
+const route = useRoute();
+
+// Условие для отображения Header и Footer
+const showHeaderFooter = computed(() => {
+  return route.path !== '/auth'; // путь к странице авторизации
+});
 </script>
 
 <style scoped>
