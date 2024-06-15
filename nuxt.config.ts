@@ -19,5 +19,29 @@ export default defineNuxtConfig({
         res.end(`Error: ${err.message}`);
       });
     }
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/about',
+        '/features',
+        '/faq',
+        '/job',
+        '/legal/agreement',
+        '/legal/beta',
+        '/legal/cookie',
+        '/legal/promotion-terms',
+        '/legal/offer',
+        '/legal/privacy',
+        '/news',
+        '/partnership',
+        '/stack',
+        '/support',
+        '/updates',
+        '/test-home'
+      ]
+    }
   }
 })
