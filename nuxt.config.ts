@@ -98,5 +98,10 @@ export default defineNuxtConfig({
         res.end(`Error: ${err.message}`);
       });
     }
+  },
+
+  // Добавление site.url для модуля nuxt-og-image
+  site: {
+    url: 'https://adwos.org'
   }
 });
