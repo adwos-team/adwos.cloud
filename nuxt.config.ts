@@ -1,5 +1,5 @@
 // nuxt.config.ts
-import { defineNuxtConfig } from 'nuxt';
+import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
