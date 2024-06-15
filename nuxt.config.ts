@@ -1,5 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineNuxtConfig } from 'nuxt/config'
+import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -7,19 +6,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss'
   ],
-  build: {
-    rollupOptions: {
-      external: ['@vueuse/head', 'clipboard']
-    }
-  },
-  hooks: {
-    'render:errorMiddleware': (app) => {
-      app.use((err, req, res, next) => {
-        res.statusCode = err.statusCode || 500;
-        res.end(`Error: ${err.message}`);
-      });
-    }
-  },
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -40,7 +26,8 @@ export default defineNuxtConfig({
         '/stack',
         '/support',
         '/updates',
-        '/test-home'
+        '/test-home',
+        '/cookie'
       ]
     }
   }
