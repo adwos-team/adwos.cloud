@@ -50,8 +50,8 @@
 import Breadcrumb from '~/components/Breadcrumb.vue';
 
 const breadcrumbItems = [
-  { text: 'Положения и условия', to: '/legal/' },
-  { text: 'Условия программы бета-тестирования', to: '/legal/beta' }
+  { text: 'Положения и условия', to: '#' },
+  { text: 'Условия программы бета-тестирования', to: '#' }
 ];
 </script>
 
