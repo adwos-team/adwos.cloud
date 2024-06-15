@@ -1,10 +1,10 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt';
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@pinia/nuxt",
-    "@nuxtjs/tailwindcss",
-    // Удалены модули @nuxtjs/robots, nuxt-schema-org, @nuxtjs/sitemap, @nuxtjs/seo
+    '@pinia/nuxt',
+    '@nuxtjs/tailwindcss',
   ],
   tailwindcss: {
     // Добавьте ваши настройки TailwindCSS здесь, если необходимо
@@ -18,9 +18,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Adwos CMS | Система для запуска досок объявлений',
-      htmlAttrs: {
-        lang: 'ru',
-      },
+      htmlAttrs: { lang: 'ru' },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
