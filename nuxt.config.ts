@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: [
     "@pinia/nuxt",
     "@nuxtjs/tailwindcss",
+    // Удалены модули @nuxtjs/robots, nuxt-schema-org, @nuxtjs/sitemap, @nuxtjs/seo
   ],
   tailwindcss: {
     // Добавьте ваши настройки TailwindCSS здесь, если необходимо
