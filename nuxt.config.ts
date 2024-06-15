@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   vite: {
     build: {
       rollupOptions: {
-        external: ['clipboard'],
+        external: ['clipboard', '@vueuse/head'],
       },
     },
   },
