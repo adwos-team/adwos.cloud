@@ -6,11 +6,10 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
-    "nuxt-schema-org",
     "@nuxtjs/seo"
   ],
   tailwindcss: {
-    // Добавьте ваши настройки TailwindCSS здесь, если необходимо
+    // Add your TailwindCSS settings here, if necessary
   },
   robots: {
     UserAgent: '*',
@@ -24,9 +23,6 @@ export default defineNuxtConfig({
       '/page1',
       '/page2'
     ]
-  },
-  schemaOrg: {
-    canonicalHost: 'https://adwos.org',
   },
   seo: {
     title: 'Адвос: недвижимость, транспорт, работа, услуги, вещи',
