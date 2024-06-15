@@ -44,8 +44,8 @@
 import Breadcrumb from '~/components/Breadcrumb.vue';
 
 const breadcrumbItems = [
-  { text: 'Положения и условия', to: '/legal/' },
-  { text: 'Политика использования файлов Cookie', to: '/cookie-policy' }
+  { text: 'Положения и условия', to: '#' },
+  { text: 'Политика использования файлов Cookie', to: '#' }
 ];
 </script>
 
