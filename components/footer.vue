@@ -1,7 +1,3 @@
-<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
-
-</script>
-
 <template>
   <!-- ========== FOOTER ========== -->
   <footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
@@ -76,12 +72,10 @@
       <div class="sm:flex sm:justify-between sm:items-center">
         <div class="flex items-center gap-x-3">
 
-
-
           <div class="space-x-4 text-sm ms-4">
             <NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/legal/privacy">Пользовательское соглашение</NuxtLink>
             <NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="/legal/privacy">Обработка персональных данных</NuxtLink>
-            <NuxtLink class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200" to="#">Статус системы</NuxtLink>
+            <a @click="openModal" class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 cursor-pointer">Статус системы</a>
           </div>
         </div>
 
@@ -116,8 +110,23 @@
     </div>
   </footer>
   <!-- ========== END FOOTER ========== -->
+
+  <StatusModal ref="statusModal" />
 </template>
 
-<style scoped>
+<script setup>
+import {ref} from 'vue';
+import StatusModal from '@/components/StatusModal.vue';
 
+const statusModal = ref();
+
+const openModal = () => {
+  if (statusModal.value) {
+    statusModal.value.openModal();
+  }
+};
+</script>
+
+<style scoped>
+/* Добавьте стили для футера, если необходимо */
 </style>

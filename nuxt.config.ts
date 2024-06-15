@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     Allow: '/'
   },
   sitemap: {
-    hostname: 'https://front.adwos.org',
+    hostname: 'https://adwos.org',
     gzip: true,
     routes: [
       '/page1',
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     ]
   },
   schemaOrg: {
-    canonicalHost: 'https://front.adwos.org',
+    canonicalHost: 'https://adwos.org',
   },
   seo: {
     title: 'Адвос: недвижимость, транспорт, работа, услуги, вещи',
@@ -54,9 +54,9 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: 'На Адвос вы можете недорого купить или выгодно продать авто с пробегом или новую машину, квартиру и другую недвижимость, а также новую или б/у одежду, мебель' },
         { property: 'og:title', content: 'Адвос: недвижимость, транспорт, работа, услуги, вещи' },
         { property: 'og:description', content: 'На Адвос вы можете недорого купить или выгодно продать авто с пробегом или новую машину, квартиру и другую недвижимость, а также новую или б/у одежду, мебель' },
-        { name: 'keywords', content: 'Adwos CMS, универсальная система, доска объявлений, маркетплейс услуг, онлайн аренда авто, сервис бронирования недвижимости, развитие бизнеса, стартап, готовая система, мобильное приложение Android iOS' }, // Добавлен метатег keywords
+        { name: 'keywords', content: 'Adwos CMS, универсальная система, доска объявлений, маркетплейс услуг, онлайн аренда авто, сервис бронирования недвижимости, развитие бизнеса, стартап, готовая система, мобильное приложение Android iOS' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://front.adwos.org' },
+        { property: 'og:url', content: 'https://adwos.org' },
         { property: 'og:image', content: '/path/to/logotest.jpeg' },
         { property: 'og:locale', content: 'ru_RU' },
         { property: 'og:image:width', content: '512' },
@@ -89,6 +89,15 @@ export default defineNuxtConfig({
         res.statusCode = err.statusCode || 500
         res.end(`Error: ${err.message}`)
       })
+    }
+  },
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'custom-404',
+        path: '*',
+        component: resolve(__dirname, 'pages/404.vue')
+      });
     }
   }
 });

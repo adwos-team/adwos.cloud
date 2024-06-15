@@ -1,12 +1,6 @@
 <template>
   <div class="max-w-[50rem] flex flex-col mx-auto size-full">
-    <!-- ========== HEADER ========== -->
-    <header class="mb-auto flex justify-center z-50 w-full py-4">
-      <nav class="px-4 sm:px-6 lg:px-8" aria-label="Global">
-        <a class="flex-none text-xl font-semibold sm:text-3xl" href="#" aria-label="Brand">Brand</a>
-      </nav>
-    </header>
-    <!-- ========== END HEADER ========== -->
+
 
     <!-- ========== MAIN CONTENT ========== -->
     <main id="content">
@@ -24,18 +18,15 @@
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
 
-    <!-- ========== FOOTER ========== -->
-    <footer class="mt-auto text-center py-5">
-      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-        <p class="text-sm text-gray-500">© All Rights Reserved. 2022.</p>
-      </div>
-    </footer>
-    <!-- ========== END FOOTER ========== -->
+
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 </script>
 
 <style scoped>
+.min-h-screen {
+  min-height: 100vh;
+}
 </style>
