@@ -165,7 +165,7 @@
 </template>
 
 <script lang="ts">
-import Breadcrumb from '~/components/breadcrumb.vue';
+import Breadcrumb from '~/components/Breadcrumb.vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
