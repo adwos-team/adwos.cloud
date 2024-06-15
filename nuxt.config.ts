@@ -1,9 +1,11 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+// nuxt.config.ts
+import { defineNuxtConfig } from 'nuxt';
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@pinia/nuxt",
-    "@nuxtjs/tailwindcss"
+    '@pinia/nuxt',
+    '@nuxtjs/tailwindcss'
   ],
   tailwindcss: {
     // Добавьте ваши настройки TailwindCSS здесь, если необходимо
@@ -20,6 +22,34 @@ export default defineNuxtConfig({
         external: ['clipboard', '@vueuse/head'],
       },
     },
+  },
+  nitro: {
+    prerender: {
+      routes: [
+        '/',
+        '/features',
+        '/legal',
+        '/faq',
+        '/learn',
+        '/about',
+        '/job',
+        '/legal/cookie',
+        '/legal/agreement',
+        '/legal/beta',
+        '/legal/promotion-terms',
+        '/legal/offer',
+        '/brand',
+        '/legal/privacy',
+        '/news',
+        '/partnership',
+        '/stack',
+        '/support',
+        '/updates',
+        '/test-home',
+        '/services',
+        '/error'
+      ]
+    }
   },
   app: {
     head: {
