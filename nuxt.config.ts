@@ -121,27 +121,4 @@ export default defineNuxtConfig({
       backendURL: process.env.BACKEND_URL,
     },
   },
-  plugins: [
-    {
-      src: "~/plugins/v-yandex-map.client.ts",
-      mode: "client",
-    },
-    {
-      src: "~/plugins/preline.client.ts",
-      mode: "client",
-    },
-  ],
-  robots: {
-    UserAgent: '*',
-    Disallow: '/admin',
-    Allow: '/'
-  },
-  sitemap: {
-    hostname: 'https://front.adwos.org',
-    gzip: true,
-    routes: [
-      '/page1',
-      '/page2'
-    ]
-  }
 });
