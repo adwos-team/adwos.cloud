@@ -1,16 +1,25 @@
 <script setup lang="ts">
 import { useCookieStore } from '~/stores/cookieStore';
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 
 const cookieStore = useCookieStore();
+const hasError = ref(false);
 
 onMounted(() => {
-  cookieStore.checkCookieBannerStatus();
+  try {
+    cookieStore.checkCookieBannerStatus();
+  } catch (error) {
+    console.error(error);
+    hasError.value = true;
+  }
 });
 </script>
 
 <template>
-  <div v-if="cookieStore.isCookieBannerVisible" id="cookies-simple-with-icon-and-dismiss-button" class="fixed bottom-0 end-0 z-[60] sm:max-w-sm w-full mx-auto p-6">
+  <div v-if="hasError">
+    <p>Произошла ошибка при загрузке cookie banner</p>
+  </div>
+  <div v-else v-if="cookieStore.isCookieBannerVisible" id="cookies-simple-with-icon-and-dismiss-button" class="fixed bottom-0 end-0 z-[60] sm:max-w-sm w-full mx-auto p-6">
     <!-- Card -->
     <div class="p-4 bg-white border border-gray-200 rounded-xl shadow-sm">
       <div class="flex gap-x-4">
