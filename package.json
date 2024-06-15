@@ -10,9 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/kit": "^3.12.1",
     "@vueuse/head": "^2.0.0",
     "clipboard": "^2.0.11",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.12.1",
     "pinia": "^2.1.7",
     "preline": "^2.1.0",
     "tesseract.js": "^5.1.0",
