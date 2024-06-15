@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/tailwindcss",
 
-    // Remove the "@nuxtjs/seo" module
+    // Remove the "@nuxtjs/seo" modules
   ],
   // The rest of your configuration...
 });
