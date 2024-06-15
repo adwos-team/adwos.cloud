@@ -15,17 +15,7 @@ export default defineNuxtConfig({
     storageKey: "adwos_theme_selected",
   },
   modules: [
-    "nuxt-swiper",
-    "@nuxt/image",
     "@pinia/nuxt",
-    "@nuxtjs/color-mode",
-    "@vueuse/nuxt",
-    "@vite-pwa/nuxt",
-    "@nuxt/ui",
-    "nuxt-auth-sanctum",
-    "shadcn-nuxt",
-    "@nuxtjs/robots",
-    "@nuxtjs/sitemap",
   ],
   shadcn: {
     prefix: "jet",
