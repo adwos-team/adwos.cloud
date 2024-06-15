@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // Включение инструментов разработчика
   devtools: { enabled: true },
@@ -103,5 +102,16 @@ export default defineNuxtConfig({
   // Добавление site.url для модуля nuxt-og-image
   site: {
     url: 'https://adwos.org'
+  },
+
+  // Настройки для статической генерации
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
+
+  generate: {
+    fallback: '404.html'
   }
 });
