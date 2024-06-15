@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-7xl mx-auto mt-16 px-4 sm:px-6 lg:px-8">
-    <h2 class="text-2xl font-semibold text-center text-gray-800 mb-6">Реквизиты ООО "Аспро"</h2>
+    <h2 class="text-2xl font-semibold text-center text-gray-800 mb-6">Реквизиты ООО "Адвос"</h2>
     <div class="flex justify-center mb-4">
       <button @click="downloadPDF('ru')" class="p-2 inline-flex items-center gap-x-1.5 text-xs font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
         Скачать реквизиты в PDF
