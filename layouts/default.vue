@@ -16,10 +16,10 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import Header from '~/components/Header.vue';
-import Footer from '~/components/Footer.vue';
-import Cookie from '~/components/Cookie.vue';
-import LicenseCheckModal from '~/components/LicenseCheckModal.vue';
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+import Cookie from '@/components/Cookie.vue';
+import LicenseCheckModal from '@/components/LicenseCheckModal.vue';
 
 const openLicenseModal = () => {
   const modal = document.querySelector('#license-check-modal');
