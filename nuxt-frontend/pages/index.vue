@@ -37,7 +37,7 @@
             <section class="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
               <div class="flex gap-3 items-start max-md:flex-wrap">
                 <img loading="lazy"
-                     src="/public/images/logotype.png"
+                     src="/images/logotype.png"
                      alt="Idea" class="shrink-0 w-14 aspect-square rounded-full"/>
                 <section class="flex flex-col grow shrink-0 justify-center py-0.5 mt-1.5 w-fit">
                   <h2 class="text-2xl font-bold text-gray-800 dark:text-neutral-200">У вас есть идея?</h2>

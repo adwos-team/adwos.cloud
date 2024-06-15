@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import preline from "preline/plugin";
-import forms from '@tailwindcss/forms'
+import forms from '@tailwindcss/forms';
+
 export default {
   content: [
     './pages/**/*.{ts,tsx,vue}',

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCookieStore } from '~/stores/cookieStore';
+import { useCookieStore } from '@/stores/cookieStore'
 import { onMounted, ref } from 'vue';
 
 const cookieStore = useCookieStore();

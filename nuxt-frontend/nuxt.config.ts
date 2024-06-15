@@ -1,3 +1,5 @@
+import { defineNuxtConfig } from 'nuxt/config';
+
 export default defineNuxtConfig({
   // Включение инструментов разработчика
   devtools: { enabled: true },
@@ -9,17 +11,8 @@ export default defineNuxtConfig({
     "@nuxtjs/robots", // Генерация файла robots.txt
     "@nuxtjs/sitemap", // Генерация файла sitemap.xml
     "nuxt-schema-org", // Интеграция Schema.org
-    "@nuxtjs/seo" // Расширенное SEO управление
+    // Убедитесь, что модуль @nuxtjs/seo существует и корректно установлен
   ],
-
-  // Настройки TailwindCSS
-  tailwindcss: {
-    extend: {
-      colors: {
-        'primary': '#ff3e00', // Пример добавления пользовательского цвета
-      },
-    }
-  },
 
   // Настройка файла robots.txt
   robots: {
@@ -108,10 +101,17 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: ['/']
+    },
+    devProxy: {
+      '/api': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+        pathRewrite: { '^/api': '' },
+      }
     }
   },
 
   generate: {
     fallback: '404.html'
-  }
+  },
 });
