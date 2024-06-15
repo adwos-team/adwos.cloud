@@ -61,6 +61,7 @@ export default defineNuxtConfig({
   // Настройки head для HTML
   app: {
     head: {
+      siteUrl: 'https://example.com',
       title: 'Adwos CMS | Система для запуска досок объявлений',
       htmlAttrs: {
         lang: 'ru',
